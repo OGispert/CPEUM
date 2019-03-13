@@ -1,0 +1,1864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882AE05315E5248700D488E4 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AE05115E5248700D488E4 /* OverlayViewController.m */; };
+		882AE05415E5248700D488E4 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882AE05215E5248700D488E4 /* OverlayViewController.xib */; };
+		88646CF415EBBE03001B8AA0 /* lupa.png in Resources */ = {isa = PBXBuildFile; fileRef = 88646CF315EBBE03001B8AA0 /* lupa.png */; };
+		9F067A4D141A018E0035B5B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F067A4C141A018E0035B5B9 /* CFNetwork.framework */; };
+		9F067A50141A01960035B5B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F067A4F141A01960035B5B9 /* SystemConfiguration.framework */; };
+		9F0FF04A13E86CAD006298CB /* 14 de julio de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F0FF04913E86CAD006298CB /* 14 de julio de 2011.txt */; };
+		9F0FF04E13E86DAB006298CB /* PJFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0FF04D13E86DAB006298CB /* PJFViewController.m */; };
+		9F1DC614162DF5F200D6664B /* 15 de octubre de 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F1DC613162DF5F200D6664B /* 15 de octubre de 2012.txt */; };
+		9F1E19FC17F335A100735EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E19FB17F335A100735EC6 /* Images.xcassets */; };
+		9F24BE18137473630057A592 /* 1 de junio de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD63137473630057A592 /* 1 de junio de 2009.txt */; };
+		9F24BE19137473630057A592 /* 2 de agosto de 2004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD64137473630057A592 /* 2 de agosto de 2004.txt */; };
+		9F24BE1A137473630057A592 /* 2 de agosto de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD65137473630057A592 /* 2 de agosto de 2007.txt */; };
+		9F24BE1B137473630057A592 /* 3 de septiembre de 1993.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD66137473630057A592 /* 3 de septiembre de 1993.txt */; };
+		9F24BE1C137473630057A592 /* 4 de diciembre de 2006.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD67137473630057A592 /* 4 de diciembre de 2006.txt */; };
+		9F24BE1D137473630057A592 /* 4 de diciembre de 2006-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD68137473630057A592 /* 4 de diciembre de 2006-2.txt */; };
+		9F24BE1E137473630057A592 /* 4 de mayo de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD69137473630057A592 /* 4 de mayo de 2009.txt */; };
+		9F24BE1F137473630057A592 /* 5 de abril de 2004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6A137473630057A592 /* 5 de abril de 2004.txt */; };
+		9F24BE20137473630057A592 /* 7 de abril de 2000.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6B137473630057A592 /* 7 de abril de 2000.txt */; };
+		9F24BE21137473630057A592 /* 7 de abril de 2006.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6C137473630057A592 /* 7 de abril de 2006.txt */; };
+		9F24BE22137473630057A592 /* 7 de mayo de 2008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6D137473630057A592 /* 7 de mayo de 2008.txt */; };
+		9F24BE23137473630057A592 /* 8 de diciembre de 2005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6E137473630057A592 /* 8 de diciembre de 2005.txt */; };
+		9F24BE24137473630057A592 /* 9 de diciembre de 2005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD6F137473630057A592 /* 9 de diciembre de 2005.txt */; };
+		9F24BE25137473630057A592 /* 11 de junio de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD70137473630057A592 /* 11 de junio de 1999.txt */; };
+		9F24BE26137473630057A592 /* 12 de diciembre de 2005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD71137473630057A592 /* 12 de diciembre de 2005.txt */; };
+		9F24BE27137473630057A592 /* 12 de febrero de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD72137473630057A592 /* 12 de febrero de 2007.txt */; };
+		9F24BE28137473630057A592 /* 12 de noviembre de 2002.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD73137473630057A592 /* 12 de noviembre de 2002.txt */; };
+		9F24BE29137473630057A592 /* 13 de abril de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD74137473630057A592 /* 13 de abril de 2011.txt */; };
+		9F24BE2A137473630057A592 /* 13 de noviembre de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD75137473630057A592 /* 13 de noviembre de 2007.txt */; };
+		9F24BE2B137473630057A592 /* 13 de septiembre de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD76137473630057A592 /* 13 de septiembre de 1999.txt */; };
+		9F24BE2C137473630057A592 /* 14 de agosto de 2001.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD77137473630057A592 /* 14 de agosto de 2001.txt */; };
+		9F24BE2D137473630057A592 /* 14 de agosto de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD78137473630057A592 /* 14 de agosto de 2009.txt */; };
+		9F24BE2E137473630057A592 /* 14 de junio de 2002.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD79137473630057A592 /* 14 de junio de 2002.txt */; };
+		9F24BE2F137473630057A592 /* 14 de septiembre de 2006.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7A137473630057A592 /* 14 de septiembre de 2006.txt */; };
+		9F24BE30137473630057A592 /* 15 de agosto de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7B137473630057A592 /* 15 de agosto de 2007.txt */; };
+		9F24BE31137473630057A592 /* 15 de agosto de 2008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7C137473630057A592 /* 15 de agosto de 2008.txt */; };
+		9F24BE32137473630057A592 /* 18 de junio de 2008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7D137473630057A592 /* 18 de junio de 2008.txt */; };
+		9F24BE33137473630057A592 /* 19 de junio de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7E137473630057A592 /* 19 de junio de 2007.txt */; };
+		9F24BE34137473630057A592 /* 19 de junio de 2007-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD7F137473630057A592 /* 19 de junio de 2007-2.txt */; };
+		9F24BE35137473630057A592 /* 20 de julio de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD80137473630057A592 /* 20 de julio de 2007.txt */; };
+		9F24BE36137473630057A592 /* 20 de julio de 2007-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD81137473630057A592 /* 20 de julio de 2007-2.txt */; };
+		9F24BE37137473630057A592 /* 20 de junio de 2005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD82137473630057A592 /* 20 de junio de 2005.txt */; };
+		9F24BE38137473630057A592 /* 20 de marzo de 1997.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD83137473630057A592 /* 20 de marzo de 1997.txt */; };
+		9F24BE39137473630057A592 /* 21 de septiembre de 2000.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD84137473630057A592 /* 21 de septiembre de 2000.txt */; };
+		9F24BE3A137473630057A592 /* 21 de septiembre de 2000-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD85137473630057A592 /* 21 de septiembre de 2000-2.txt */; };
+		9F24BE3B137473630057A592 /* 22 de agosto de 1996.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD86137473630057A592 /* 22 de agosto de 1996.txt */; };
+		9F24BE3C137473630057A592 /* 22 de julio de 2004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD87137473630057A592 /* 22 de julio de 2004.txt */; };
+		9F24BE3D137473630057A592 /* 23 de diciembre de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD88137473630057A592 /* 23 de diciembre de 1999.txt */; };
+		9F24BE3E137473630057A592 /* 24 de agosto de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD89137473630057A592 /* 24 de agosto de 2009.txt */; };
+		9F24BE3F137473630057A592 /* 25 de junio de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8A137473630057A592 /* 25 de junio de 2009.txt */; };
+		9F24BE40137473630057A592 /* 25 de octubre de 1993.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8B137473630057A592 /* 25 de octubre de 1993.txt */; };
+		9F24BE41137473630057A592 /* 26 de febrero de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8C137473630057A592 /* 26 de febrero de 1999.txt */; };
+		9F24BE42137473630057A592 /* 26 de septiembre de 2008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8D137473630057A592 /* 26 de septiembre de 2008.txt */; };
+		9F24BE43137473630057A592 /* 27 de abril de 2010.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8E137473630057A592 /* 27 de abril de 2010.txt */; };
+		9F24BE44137473630057A592 /* 27 de septiembre de 2004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD8F137473630057A592 /* 27 de septiembre de 2004.txt */; };
+		9F24BE45137473630057A592 /* 27 de septiembre de 2007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD90137473630057A592 /* 27 de septiembre de 2007.txt */; };
+		9F24BE46137473630057A592 /* 28 de junio de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD91137473630057A592 /* 28 de junio de 1999.txt */; };
+		9F24BE47137473630057A592 /* 28 de noviembre de 2005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD92137473630057A592 /* 28 de noviembre de 2005.txt */; };
+		9F24BE48137473630057A592 /* 29 de agosto de 2008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD93137473630057A592 /* 29 de agosto de 2008.txt */; };
+		9F24BE49137473630057A592 /* 29 de julio de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD94137473630057A592 /* 29 de julio de 1999.txt */; };
+		9F24BE4A137473630057A592 /* 29 de julio de 2010.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD95137473630057A592 /* 29 de julio de 2010.txt */; };
+		9F24BE4B137473630057A592 /* 30 de abril de 2009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD96137473630057A592 /* 30 de abril de 2009.txt */; };
+		9F24BE4C137473630057A592 /* 30 de abril de 2009-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD97137473630057A592 /* 30 de abril de 2009-2.txt */; };
+		9F24BE4D137473630057A592 /* 30 de julio de 1999.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD98137473630057A592 /* 30 de julio de 1999.txt */; };
+		9F24BE4E137473630057A592 /* 30 de julio de 2004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD99137473630057A592 /* 30 de julio de 2004.txt */; };
+		9F24BE4F137473630057A592 /* Artículo 31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9A137473630057A592 /* Artículo 31.txt */; };
+		9F24BE50137473630057A592 /* Artículo 32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9B137473630057A592 /* Artículo 32.txt */; };
+		9F24BE51137473630057A592 /* Artículo 33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9C137473630057A592 /* Artículo 33.txt */; };
+		9F24BE52137473630057A592 /* Artículo 34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9D137473630057A592 /* Artículo 34.txt */; };
+		9F24BE53137473630057A592 /* Artículo 35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9E137473630057A592 /* Artículo 35.txt */; };
+		9F24BE54137473630057A592 /* Artículo 36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BD9F137473630057A592 /* Artículo 36.txt */; };
+		9F24BE55137473630057A592 /* Artículo 37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA0137473630057A592 /* Artículo 37.txt */; };
+		9F24BE56137473630057A592 /* Artículo 38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA1137473630057A592 /* Artículo 38.txt */; };
+		9F24BE57137473630057A592 /* Artículo 39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA2137473630057A592 /* Artículo 39.txt */; };
+		9F24BE59137473630057A592 /* Artículo 41.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA4137473630057A592 /* Artículo 41.txt */; };
+		9F24BE5A137473630057A592 /* Artículo 42.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA5137473630057A592 /* Artículo 42.txt */; };
+		9F24BE5B137473630057A592 /* Artículo 43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA6137473630057A592 /* Artículo 43.txt */; };
+		9F24BE5C137473630057A592 /* Artículo 44.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA7137473630057A592 /* Artículo 44.txt */; };
+		9F24BE5D137473630057A592 /* Artículo 45.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDA8137473630057A592 /* Artículo 45.txt */; };
+		9F24BE5F137473630057A592 /* Artículo 47.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAA137473630057A592 /* Artículo 47.txt */; };
+		9F24BE60137473630057A592 /* Artículo 48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAB137473630057A592 /* Artículo 48.txt */; };
+		9F24BE61137473630057A592 /* Artículo 49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAC137473630057A592 /* Artículo 49.txt */; };
+		9F24BE62137473630057A592 /* Artículo 50.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAD137473630057A592 /* Artículo 50.txt */; };
+		9F24BE63137473630057A592 /* Artículo 51.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAE137473630057A592 /* Artículo 51.txt */; };
+		9F24BE64137473630057A592 /* Artículo 52.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDAF137473630057A592 /* Artículo 52.txt */; };
+		9F24BE65137473630057A592 /* Artículo 53.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB0137473630057A592 /* Artículo 53.txt */; };
+		9F24BE66137473630057A592 /* Artículo 54.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB1137473630057A592 /* Artículo 54.txt */; };
+		9F24BE67137473630057A592 /* Artículo 55.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB2137473630057A592 /* Artículo 55.txt */; };
+		9F24BE68137473630057A592 /* Artículo 56.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB3137473630057A592 /* Artículo 56.txt */; };
+		9F24BE69137473630057A592 /* Artículo 57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB4137473630057A592 /* Artículo 57.txt */; };
+		9F24BE6A137473630057A592 /* Artículo 58.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB5137473630057A592 /* Artículo 58.txt */; };
+		9F24BE6B137473630057A592 /* Artículo 59.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB6137473630057A592 /* Artículo 59.txt */; };
+		9F24BE6C137473630057A592 /* Artículo 60.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB7137473630057A592 /* Artículo 60.txt */; };
+		9F24BE6D137473630057A592 /* Artículo 61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB8137473630057A592 /* Artículo 61.txt */; };
+		9F24BE6E137473630057A592 /* Artículo 62.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDB9137473630057A592 /* Artículo 62.txt */; };
+		9F24BE6F137473630057A592 /* Artículo 63.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBA137473630057A592 /* Artículo 63.txt */; };
+		9F24BE70137473630057A592 /* Artículo 64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBB137473630057A592 /* Artículo 64.txt */; };
+		9F24BE71137473630057A592 /* Artículo 65.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBC137473630057A592 /* Artículo 65.txt */; };
+		9F24BE72137473630057A592 /* Artículo 66.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBD137473630057A592 /* Artículo 66.txt */; };
+		9F24BE73137473630057A592 /* Artículo 67.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBE137473630057A592 /* Artículo 67.txt */; };
+		9F24BE74137473630057A592 /* Artículo 68.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDBF137473630057A592 /* Artículo 68.txt */; };
+		9F24BE75137473630057A592 /* Artículo 69.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC0137473630057A592 /* Artículo 69.txt */; };
+		9F24BE76137473630057A592 /* Artículo 70.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC1137473630057A592 /* Artículo 70.txt */; };
+		9F24BE77137473630057A592 /* Artículo 71.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC2137473630057A592 /* Artículo 71.txt */; };
+		9F24BE78137473630057A592 /* Artículo 72.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC3137473630057A592 /* Artículo 72.txt */; };
+		9F24BE7A137473630057A592 /* Artículo 74.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC5137473630057A592 /* Artículo 74.txt */; };
+		9F24BE7B137473630057A592 /* Artículo 75.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC6137473630057A592 /* Artículo 75.txt */; };
+		9F24BE7C137473630057A592 /* Artículo 76.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC7137473630057A592 /* Artículo 76.txt */; };
+		9F24BE7D137473630057A592 /* Artículo 77.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC8137473630057A592 /* Artículo 77.txt */; };
+		9F24BE7E137473630057A592 /* Artículo 78.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDC9137473630057A592 /* Artículo 78.txt */; };
+		9F24BE7F137473630057A592 /* Artículo 79.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCA137473630057A592 /* Artículo 79.txt */; };
+		9F24BE80137473630057A592 /* Artículo 80.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCB137473630057A592 /* Artículo 80.txt */; };
+		9F24BE81137473630057A592 /* Artículo 81.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCC137473630057A592 /* Artículo 81.txt */; };
+		9F24BE82137473630057A592 /* Artículo 82.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCD137473630057A592 /* Artículo 82.txt */; };
+		9F24BE83137473630057A592 /* Artículo 83.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCE137473630057A592 /* Artículo 83.txt */; };
+		9F24BE84137473630057A592 /* Artículo 84.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDCF137473630057A592 /* Artículo 84.txt */; };
+		9F24BE85137473630057A592 /* Artículo 85.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD0137473630057A592 /* Artículo 85.txt */; };
+		9F24BE86137473630057A592 /* Artículo 86.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD1137473630057A592 /* Artículo 86.txt */; };
+		9F24BE87137473630057A592 /* Artículo 87.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD2137473630057A592 /* Artículo 87.txt */; };
+		9F24BE88137473630057A592 /* Artículo 88.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD3137473630057A592 /* Artículo 88.txt */; };
+		9F24BE89137473630057A592 /* Artículo 89.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD4137473630057A592 /* Artículo 89.txt */; };
+		9F24BE8A137473630057A592 /* Artículo 90.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD5137473630057A592 /* Artículo 90.txt */; };
+		9F24BE8B137473630057A592 /* Artículo 91.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD6137473630057A592 /* Artículo 91.txt */; };
+		9F24BE8C137473630057A592 /* Artículo 92.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD7137473630057A592 /* Artículo 92.txt */; };
+		9F24BE8D137473630057A592 /* Artículo 93.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD8137473630057A592 /* Artículo 93.txt */; };
+		9F24BE8E137473630057A592 /* Artículo 94.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDD9137473630057A592 /* Artículo 94.txt */; };
+		9F24BE8F137473630057A592 /* Artículo 95.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDA137473630057A592 /* Artículo 95.txt */; };
+		9F24BE90137473630057A592 /* Artículo 96.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDB137473630057A592 /* Artículo 96.txt */; };
+		9F24BE91137473630057A592 /* Artículo 97.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDC137473630057A592 /* Artículo 97.txt */; };
+		9F24BE92137473630057A592 /* Artículo 98.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDD137473630057A592 /* Artículo 98.txt */; };
+		9F24BE93137473630057A592 /* Artículo 99.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDE137473630057A592 /* Artículo 99.txt */; };
+		9F24BE94137473630057A592 /* Artículo 100.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDDF137473630057A592 /* Artículo 100.txt */; };
+		9F24BE95137473630057A592 /* Artículo 101.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE0137473630057A592 /* Artículo 101.txt */; };
+		9F24BE96137473630057A592 /* Artículo 102.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE1137473630057A592 /* Artículo 102.txt */; };
+		9F24BE97137473630057A592 /* Artículo 103.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE2137473630057A592 /* Artículo 103.txt */; };
+		9F24BE98137473630057A592 /* Artículo 104.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE3137473630057A592 /* Artículo 104.txt */; };
+		9F24BE9A137473630057A592 /* Artículo 106.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE5137473630057A592 /* Artículo 106.txt */; };
+		9F24BE9B137473630057A592 /* Artículo 107.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE6137473630057A592 /* Artículo 107.txt */; };
+		9F24BE9C137473630057A592 /* Artículo 108.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE7137473630057A592 /* Artículo 108.txt */; };
+		9F24BE9D137473630057A592 /* Artículo 109.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE8137473630057A592 /* Artículo 109.txt */; };
+		9F24BE9E137473630057A592 /* Artículo 110.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDE9137473630057A592 /* Artículo 110.txt */; };
+		9F24BE9F137473630057A592 /* Artículo 111.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDEA137473630057A592 /* Artículo 111.txt */; };
+		9F24BEA0137473630057A592 /* Artículo 112.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDEB137473630057A592 /* Artículo 112.txt */; };
+		9F24BEA1137473630057A592 /* Artículo 113.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDEC137473630057A592 /* Artículo 113.txt */; };
+		9F24BEA2137473630057A592 /* Artículo 114.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDED137473630057A592 /* Artículo 114.txt */; };
+		9F24BEA3137473630057A592 /* Artículo 115.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDEE137473630057A592 /* Artículo 115.txt */; };
+		9F24BEA4137473630057A592 /* Artículo 116.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDEF137473630057A592 /* Artículo 116.txt */; };
+		9F24BEA5137473630057A592 /* Artículo 117.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF0137473630057A592 /* Artículo 117.txt */; };
+		9F24BEA6137473630057A592 /* Artículo 118.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF1137473630057A592 /* Artículo 118.txt */; };
+		9F24BEA7137473630057A592 /* Artículo 119.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF2137473630057A592 /* Artículo 119.txt */; };
+		9F24BEA8137473630057A592 /* Artículo 120.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF3137473630057A592 /* Artículo 120.txt */; };
+		9F24BEA9137473630057A592 /* Artículo 121.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF4137473630057A592 /* Artículo 121.txt */; };
+		9F24BEAA137473630057A592 /* Artículo 122.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF5137473630057A592 /* Artículo 122.txt */; };
+		9F24BEAB137473630057A592 /* Artículo 123.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF6137473630057A592 /* Artículo 123.txt */; };
+		9F24BEAC137473630057A592 /* Artículo 124.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF7137473630057A592 /* Artículo 124.txt */; };
+		9F24BEAD137473630057A592 /* Artículo 125.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF8137473630057A592 /* Artículo 125.txt */; };
+		9F24BEAE137473630057A592 /* Artículo 126.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDF9137473630057A592 /* Artículo 126.txt */; };
+		9F24BEAF137473630057A592 /* Artículo 127.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFA137473630057A592 /* Artículo 127.txt */; };
+		9F24BEB0137473630057A592 /* Artículo 128.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFB137473630057A592 /* Artículo 128.txt */; };
+		9F24BEB1137473630057A592 /* Artículo 129.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFC137473630057A592 /* Artículo 129.txt */; };
+		9F24BEB2137473630057A592 /* Artículo 130.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFD137473630057A592 /* Artículo 130.txt */; };
+		9F24BEB3137473630057A592 /* Artículo 131.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFE137473630057A592 /* Artículo 131.txt */; };
+		9F24BEB4137473630057A592 /* Artículo 132.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BDFF137473630057A592 /* Artículo 132.txt */; };
+		9F24BEB5137473630057A592 /* Artículo 133.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE00137473630057A592 /* Artículo 133.txt */; };
+		9F24BEB6137473630057A592 /* Artículo 134.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE01137473630057A592 /* Artículo 134.txt */; };
+		9F24BEB7137473630057A592 /* Artículo 135.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE02137473630057A592 /* Artículo 135.txt */; };
+		9F24BEB8137473630057A592 /* Artículo 136.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE03137473630057A592 /* Artículo 136.txt */; };
+		9F24BEB9137473630057A592 /* Artículo Cuarto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE04137473630057A592 /* Artículo Cuarto.txt */; };
+		9F24BEBA137473630057A592 /* Artículo Décimo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE05137473630057A592 /* Artículo Décimo.txt */; };
+		9F24BEBB137473630057A592 /* Artículo Decimoctavo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE06137473630057A592 /* Artículo Decimoctavo.txt */; };
+		9F24BEBC137473630057A592 /* Artículo Decimocuarto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE07137473630057A592 /* Artículo Decimocuarto.txt */; };
+		9F24BEBD137473630057A592 /* Artículo Decimonoveno.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE08137473630057A592 /* Artículo Decimonoveno.txt */; };
+		9F24BEBE137473630057A592 /* Artículo Decimoprimero.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE09137473630057A592 /* Artículo Decimoprimero.txt */; };
+		9F24BEBF137473630057A592 /* Artículo Decimoquinto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0A137473630057A592 /* Artículo Decimoquinto.txt */; };
+		9F24BEC0137473630057A592 /* Artículo Decimosegundo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0B137473630057A592 /* Artículo Decimosegundo.txt */; };
+		9F24BEC1137473630057A592 /* Artículo Decimoséptimo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0C137473630057A592 /* Artículo Decimoséptimo.txt */; };
+		9F24BEC2137473630057A592 /* Artículo Decimosexto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0D137473630057A592 /* Artículo Decimosexto.txt */; };
+		9F24BEC3137473630057A592 /* Artículo Decimotercero.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0E137473630057A592 /* Artículo Decimotercero.txt */; };
+		9F24BEC4137473630057A592 /* Artículo Noveno.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE0F137473630057A592 /* Artículo Noveno.txt */; };
+		9F24BEC5137473630057A592 /* Artículo Octavo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE10137473630057A592 /* Artículo Octavo.txt */; };
+		9F24BEC6137473630057A592 /* Artículo Primero.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE11137473630057A592 /* Artículo Primero.txt */; };
+		9F24BEC7137473630057A592 /* Artículo Quinto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE12137473630057A592 /* Artículo Quinto.txt */; };
+		9F24BEC8137473630057A592 /* Artículo Segundo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE13137473630057A592 /* Artículo Segundo.txt */; };
+		9F24BEC9137473630057A592 /* Artículo Séptimo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE14137473630057A592 /* Artículo Séptimo.txt */; };
+		9F24BECA137473630057A592 /* Artículo Sexto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE15137473630057A592 /* Artículo Sexto.txt */; };
+		9F24BECB137473630057A592 /* Artículo Tercero.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE16137473630057A592 /* Artículo Tercero.txt */; };
+		9F24BECC137473630057A592 /* Firmas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F24BE17137473630057A592 /* Firmas.txt */; };
+		9F3926AB15D5E8AF00DC74E2 /* 9 de agosto de 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F3926AA15D5E8AF00DC74E2 /* 9 de agosto de 2012.txt */; };
+		9F5D7136180E09C0003093D8 /* 8 de octubre de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5D7135180E09C0003093D8 /* 8 de octubre de 2013.txt */; };
+		9F5D713A180E112A003093D8 /* 30 de septiembre de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5D7139180E112A003093D8 /* 30 de septiembre de 2013.txt */; };
+		9F5E4EEF1372A5C80097758B /* Artículo 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EEB1372A5C70097758B /* Artículo 5.txt */; };
+		9F5E4EF01372A5C80097758B /* Artículo 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EEC1372A5C70097758B /* Artículo 6.txt */; };
+		9F5E4EF11372A5C80097758B /* Artículo 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EED1372A5C70097758B /* Artículo 7.txt */; };
+		9F5E4EF21372A5C80097758B /* Artículo 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EEE1372A5C70097758B /* Artículo 8.txt */; };
+		9F5E4F091372AD050097758B /* Artículo 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF31372AD020097758B /* Artículo 9.txt */; };
+		9F5E4F0A1372AD050097758B /* Artículo 10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF41372AD020097758B /* Artículo 10.txt */; };
+		9F5E4F0B1372AD050097758B /* Artículo 11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF51372AD020097758B /* Artículo 11.txt */; };
+		9F5E4F0C1372AD050097758B /* Artículo 12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF61372AD020097758B /* Artículo 12.txt */; };
+		9F5E4F0D1372AD050097758B /* Artículo 13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF71372AD020097758B /* Artículo 13.txt */; };
+		9F5E4F0E1372AD050097758B /* Artículo 14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF81372AD030097758B /* Artículo 14.txt */; };
+		9F5E4F0F1372AD050097758B /* Artículo 15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EF91372AD030097758B /* Artículo 15.txt */; };
+		9F5E4F101372AD050097758B /* Artículo 16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFA1372AD030097758B /* Artículo 16.txt */; };
+		9F5E4F111372AD050097758B /* Artículo 17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFB1372AD030097758B /* Artículo 17.txt */; };
+		9F5E4F121372AD050097758B /* Artículo 18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFC1372AD030097758B /* Artículo 18.txt */; };
+		9F5E4F131372AD050097758B /* Artículo 19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFD1372AD030097758B /* Artículo 19.txt */; };
+		9F5E4F141372AD050097758B /* Artículo 20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFE1372AD040097758B /* Artículo 20.txt */; };
+		9F5E4F151372AD050097758B /* Artículo 21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4EFF1372AD040097758B /* Artículo 21.txt */; };
+		9F5E4F161372AD050097758B /* Artículo 22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F001372AD040097758B /* Artículo 22.txt */; };
+		9F5E4F171372AD050097758B /* Artículo 23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F011372AD040097758B /* Artículo 23.txt */; };
+		9F5E4F181372AD050097758B /* Artículo 24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F021372AD050097758B /* Artículo 24.txt */; };
+		9F5E4F191372AD050097758B /* Artículo 25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F031372AD050097758B /* Artículo 25.txt */; };
+		9F5E4F1A1372AD050097758B /* Artículo 26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F041372AD050097758B /* Artículo 26.txt */; };
+		9F5E4F1B1372AD050097758B /* Artículo 27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F051372AD050097758B /* Artículo 27.txt */; };
+		9F5E4F1C1372AD050097758B /* Artículo 28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F061372AD050097758B /* Artículo 28.txt */; };
+		9F5E4F1D1372AD050097758B /* Artículo 29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F071372AD050097758B /* Artículo 29.txt */; };
+		9F5E4F1E1372AD050097758B /* Artículo 30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E4F081372AD050097758B /* Artículo 30.txt */; };
+		9F5EC00617A24278009BB336 /* Links.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5EC00117A24275009BB336 /* Links.png */; };
+		9F5EC00717A24278009BB336 /* Maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5EC00217A24276009BB336 /* Maps.png */; };
+		9F5EC00817A24278009BB336 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5EC00317A24276009BB336 /* Search.png */; };
+		9F5EC00917A24278009BB336 /* Tasks.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5EC00417A24277009BB336 /* Tasks.png */; };
+		9F5EC00A17A24278009BB336 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5EC00517A24278009BB336 /* Twitter.png */; };
+		9F5EC00B17A245D1009BB336 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8289E013AC408F00D12166 /* Default.png */; };
+		9F5EC00C17A245D9009BB336 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8289DE13AC408300D12166 /* Default@2x.png */; };
+		9F6079CF169B3FD4008EC77F /* Artículo 105.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6079CE169B3FD4008EC77F /* Artículo 105.txt */; };
+		9F6079D5169B438F008EC77F /* Artículo 46.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6079D4169B438F008EC77F /* Artículo 46.txt */; };
+		9F63051114ED91EE00FBFB3B /* 8 de febrero de 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F63050F14ED91EE00FBFB3B /* 8 de febrero de 2012.txt */; };
+		9F63051214ED91EE00FBFB3B /* 9 de febrero de 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F63051014ED91EE00FBFB3B /* 9 de febrero de 2012.txt */; };
+		9F6F98D01447B41600200510 /* 12 de octubre de 2011-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F98CC1447B41600200510 /* 12 de octubre de 2011-2.txt */; };
+		9F6F98D11447B41600200510 /* 12 de octubre de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F98CD1447B41600200510 /* 12 de octubre de 2011.txt */; };
+		9F6F98D21447B41600200510 /* Artículo 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F98CE1447B41600200510 /* Artículo 4.txt */; };
+		9F6FC30216EAB6C5009C3455 /* 26 de febrero de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FC2FF16EAB6C5009C3455 /* 26 de febrero de 2013.txt */; };
+		9F6FC30316EAB6C5009C3455 /* Artículo 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FC30016EAB6C5009C3455 /* Artículo 3.txt */; };
+		9F6FC30416EAB6C5009C3455 /* Artículo 73.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F6FC30116EAB6C5009C3455 /* Artículo 73.txt */; };
+		9F7A6E0617A2FDFD0010A56D /* Face.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7A6E0517A2FDFD0010A56D /* Face.png */; };
+		9F7A6E0817A300D40010A56D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7A6E0717A300D40010A56D /* Social.framework */; };
+		9F8101FC14436C2E00BE600E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8101FB14436C2E00BE600E /* Twitter.framework */; };
+		9F81020B14436DCB00BE600E /* IlegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F81020314436DCB00BE600E /* IlegisViewController.m */; };
+		9F81020C14436DCB00BE600E /* GmgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F81020514436DCB00BE600E /* GmgViewController.m */; };
+		9F81020D14436DCB00BE600E /* FbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F81020714436DCB00BE600E /* FbViewController.m */; };
+		9F81020E14436DCB00BE600E /* ilegisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F81020814436DCB00BE600E /* ilegisViewController.xib */; };
+		9F81020F14436DCB00BE600E /* GmgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F81020914436DCB00BE600E /* GmgViewController.xib */; };
+		9F81021014436DCB00BE600E /* FbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F81020A14436DCB00BE600E /* FbViewController.xib */; };
+		9F82B58B13B26FF10020C69D /* 6 de junio de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F82B58A13B26FF10020C69D /* 6 de junio de 2011.txt */; };
+		9F82B58D13B26FFB0020C69D /* 10 de junio de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F82B58C13B26FFB0020C69D /* 10 de junio de 2011.txt */; };
+		9F87305D1369F74B00B06EBE /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87305B1369F74B00B06EBE /* ArticleViewController.m */; };
+		9F87305E1369F74C00B06EBE /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F87305C1369F74B00B06EBE /* ArticleViewController.xib */; };
+		9F873060136A2BE100B06EBE /* Texto Vigente.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F87305F136A2BE100B06EBE /* Texto Vigente.txt */; };
+		9F873074136A377C00B06EBE /* Artículo 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F873071136A377C00B06EBE /* Artículo 1.txt */; };
+		9F873075136A377C00B06EBE /* Artículo 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F873072136A377C00B06EBE /* Artículo 2.txt */; };
+		9F88C5F513CCD37900C938AE /* SendMail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F88C5F313CCD37900C938AE /* SendMail.png */; };
+		9F927F46176BE49E00EBF5A5 /* 11 de junio de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F927F45176BE49E00EBF5A5 /* 11 de junio de 2013.txt */; };
+		9F93B00713BCD58300406A7C /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F93B00513BCD58300406A7C /* MainWindow-iPad.xib */; };
+		9F93CEAF1AC0AE4300A02961 /* 7 de julio de 2014.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CEAB1AC0AE4300A02961 /* 7 de julio de 2014.txt */; };
+		9F93CEB01AC0AE4300A02961 /* 17 de junio de 2014 (1).txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CEAC1AC0AE4300A02961 /* 17 de junio de 2014 (1).txt */; };
+		9F93CEB11AC0AE4300A02961 /* 17 de junio de 2014 (2).txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CEAD1AC0AE4300A02961 /* 17 de junio de 2014 (2).txt */; };
+		9F93CEB21AC0AE4300A02961 /* 17 de junio de 2014 (3).txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CEAE1AC0AE4300A02961 /* 17 de junio de 2014 (3).txt */; };
+		9F97418117D632940086A5D0 /* 19 de julio de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F97418017D632940086A5D0 /* 19 de julio de 2013.txt */; };
+		9F9BAAEC16724CFB0096D7AC /* 30 de noviembre de 2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F9BAAEB16724CFB0096D7AC /* 30 de noviembre de 2012.txt */; };
+		9F9BAAEF16724D1B0096D7AC /* Artículo 40.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F9BAAEE16724D1B0096D7AC /* Artículo 40.txt */; };
+		9F9C24C417A33CB800837860 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9C24C217A33CB800837860 /* ReminderViewController.m */; };
+		9F9C24C517A33CB800837860 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9C24C317A33CB800837860 /* ReminderViewController.xib */; };
+		9F9C24C717A342A000837860 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9C24C617A342A000837860 /* EventKit.framework */; };
+		9F9C24C917A34C5A00837860 /* Alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9C24C817A34C5A00837860 /* Alarm.png */; };
+		9FA5AC0013DF3E82003B8647 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA5ABFF13DF3E82003B8647 /* MapKit.framework */; };
+		9FA5AC0513DF3FD5003B8647 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5AC0313DF3FD4003B8647 /* MapViewController.m */; };
+		9FA5AC0613DF3FD5003B8647 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5AC0413DF3FD4003B8647 /* MapViewController.xib */; };
+		9FA5AC0A13DF4B8A003B8647 /* SCJNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5AC0813DF4B8A003B8647 /* SCJNViewController.m */; };
+		9FA5AC0F13DF4EF8003B8647 /* JFDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5AC0D13DF4EF8003B8647 /* JFDFViewController.m */; };
+		9FA5AC1913DF5CDF003B8647 /* TSJDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5AC1813DF5CDF003B8647 /* TSJDFViewController.m */; };
+		9FA5AC1C13DF6553003B8647 /* JPenalDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5AC1B13DF6553003B8647 /* JPenalDFViewController.m */; };
+		9FA687B8138ACF4A00486A3D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA687B6138ACF4A00486A3D /* WebViewController.m */; };
+		9FA687B9138ACF4A00486A3D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA687B7138ACF4A00486A3D /* WebViewController.xib */; };
+		9FA8479913B93003007CC6B6 /* Logo-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA8479613B93003007CC6B6 /* Logo-facebook.png */; };
+		9FA8479A13B93003007CC6B6 /* Logo-mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA8479713B93003007CC6B6 /* Logo-mail.png */; };
+		9FA8479D13B9302F007CC6B6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA8479C13B9302F007CC6B6 /* MessageUI.framework */; };
+		9FA9E7E41415D4D600EE66FA /* Activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E7E21415D4D600EE66FA /* Activity.png */; };
+		9FA9E7ED1415E25A00EE66FA /* 17 de agosto de 2011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E7EC1415E25A00EE66FA /* 17 de agosto de 2011.txt */; };
+		9FACA3AC135DE2AB001F9BC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AB135DE2AB001F9BC5 /* UIKit.framework */; };
+		9FACA3AE135DE2AB001F9BC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AD135DE2AB001F9BC5 /* Foundation.framework */; };
+		9FACA3B0135DE2AB001F9BC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AF135DE2AB001F9BC5 /* CoreGraphics.framework */; };
+		9FACA3B2135DE2AB001F9BC5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3B1135DE2AB001F9BC5 /* CoreData.framework */; };
+		9FACA3B8135DE2AB001F9BC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3B6135DE2AB001F9BC5 /* InfoPlist.strings */; };
+		9FACA3BB135DE2AB001F9BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3BA135DE2AB001F9BC5 /* main.m */; };
+		9FACA3BE135DE2AB001F9BC5 /* LawViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3BD135DE2AB001F9BC5 /* LawViewerAppDelegate.m */; };
+		9FACA3C1135DE2AB001F9BC5 /* LawViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3BF135DE2AB001F9BC5 /* LawViewer.xcdatamodeld */; };
+		9FACA3C4135DE2AB001F9BC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3C2135DE2AB001F9BC5 /* MainWindow.xib */; };
+		9FACA3C7135DE2AB001F9BC5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3C6135DE2AB001F9BC5 /* RootViewController.m */; };
+		9FACA3CA135DE2AB001F9BC5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3C8135DE2AB001F9BC5 /* RootViewController.xib */; };
+		9FACA3D1135DE2AB001F9BC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AB135DE2AB001F9BC5 /* UIKit.framework */; };
+		9FACA3D2135DE2AB001F9BC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AD135DE2AB001F9BC5 /* Foundation.framework */; };
+		9FACA3D3135DE2AB001F9BC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3AF135DE2AB001F9BC5 /* CoreGraphics.framework */; };
+		9FACA3D4135DE2AB001F9BC5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FACA3B1135DE2AB001F9BC5 /* CoreData.framework */; };
+		9FACA3DC135DE2AB001F9BC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3DA135DE2AB001F9BC5 /* InfoPlist.strings */; };
+		9FACA3DF135DE2AB001F9BC5 /* LawViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3DE135DE2AB001F9BC5 /* LawViewerTests.h */; };
+		9FACA3E1135DE2AB001F9BC5 /* LawViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3E0135DE2AB001F9BC5 /* LawViewerTests.m */; };
+		9FACA3EC135DE98A001F9BC5 /* LeyesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACA3EB135DE98A001F9BC5 /* LeyesViewController.m */; };
+		9FACA3EE135DED19001F9BC5 /* LeyesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FACA3ED135DED19001F9BC5 /* LeyesViewController.xib */; };
+		9FAE716E13E078400017EF1F /* Iron114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FAE716D13E078400017EF1F /* Iron114.png */; };
+		9FB86C6018ABCD2A0035C790 /* 7 de febrero de 2014.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FB86C5E18ABCD2A0035C790 /* 7 de febrero de 2014.txt */; };
+		9FB86C6118ABCD2A0035C790 /* 10 de febrero de 2014.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FB86C5F18ABCD2A0035C790 /* 10 de febrero de 2014.txt */; };
+		9FC09256187C4FB40074E7F7 /* 20 de diciembre de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FC09254187C4FB40074E7F7 /* 20 de diciembre de 2013.txt */; };
+		9FC09257187C4FB40074E7F7 /* 27 de diciembre de 2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FC09255187C4FB40074E7F7 /* 27 de diciembre de 2013.txt */; };
+		9FCE3BB413BB6AB5007783CC /* Logo-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3BB313BB6AB5007783CC /* Logo-twitter.png */; };
+		9FEF5AAF15EE8043003BAE0B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEF5AAE15EE8043003BAE0B /* MediaPlayer.framework */; };
+		9FF6541D1590EB310058D123 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6541C1590EB310058D123 /* FlipsideViewController.m */; };
+		9FF6541F1590EB3B0058D123 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6541E1590EB3B0058D123 /* FlipsideViewController.xib */; };
+		9FF654211590EB460058D123 /* GMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF654201590EB460058D123 /* GMG.png */; };
+		BE12B38615DEB29D00120DC9 /* BuscadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE12B38415DEB29D00120DC9 /* BuscadorViewController.m */; };
+		BE12B38715DEB29D00120DC9 /* BuscadorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE12B38515DEB29D00120DC9 /* BuscadorViewController.xib */; };
+		BE560A0515DAEF4C00720C21 /* UIWebViewSearch2.js in Resources */ = {isa = PBXBuildFile; fileRef = BE560A0215DAEF2900720C21 /* UIWebViewSearch2.js */; };
+		BE8FFE2715DBF82D00EFAE99 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8FFE2615DBF82D00EFAE99 /* next.png */; };
+		BE8FFE2A15DBF84B00EFAE99 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8FFE2915DBF84B00EFAE99 /* back.png */; };
+		C317D3CF1C60098F00FF31E4 /* 27 de enero de 2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = C317D3CE1C60098F00FF31E4 /* 27 de enero de 2016.txt */; };
+		C32FEB851C6A9135007819C8 /* 29 de enero de 2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = C32FEB841C6A9135007819C8 /* 29 de enero de 2016.txt */; };
+		C3D7747B1C0CEDEF001B586C /* 2 de julio de 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D774761C0CEDEF001B586C /* 2 de julio de 2015.txt */; };
+		C3D7747C1C0CEDEF001B586C /* 10 de julio de 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D774771C0CEDEF001B586C /* 10 de julio de 2015.txt */; };
+		C3D7747D1C0CEDEF001B586C /* 22 de mayo de 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D774781C0CEDEF001B586C /* 22 de mayo de 2015.txt */; };
+		C3D7747E1C0CEDEF001B586C /* 26 de mayo de 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D774791C0CEDEF001B586C /* 26 de mayo de 2015.txt */; };
+		C3D7747F1C0CEDEF001B586C /* 27 de mayo de 2015.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3D7747A1C0CEDEF001B586C /* 27 de mayo de 2015.txt */; };
+		C3D774831C0D1482001B586C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D774821C0D1482001B586C /* Appirater.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C3D774861C0D150C001B586C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D774851C0D150C001B586C /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FACA3D5135DE2AB001F9BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FACA39E135DE2AA001F9BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FACA3A6135DE2AB001F9BC5;
+			remoteInfo = LawViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882AE05015E5248700D488E4 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		882AE05115E5248700D488E4 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		882AE05215E5248700D488E4 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
+		88646CF315EBBE03001B8AA0 /* lupa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupa.png; sourceTree = "<group>"; };
+		9F067A4C141A018E0035B5B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9F067A4F141A01960035B5B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9F0FF04913E86CAD006298CB /* 14 de julio de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "14 de julio de 2011.txt"; sourceTree = "<group>"; };
+		9F0FF04C13E86DAA006298CB /* PJFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJFViewController.h; sourceTree = "<group>"; };
+		9F0FF04D13E86DAB006298CB /* PJFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJFViewController.m; sourceTree = "<group>"; };
+		9F1DC613162DF5F200D6664B /* 15 de octubre de 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "15 de octubre de 2012.txt"; sourceTree = "<group>"; };
+		9F1E19FB17F335A100735EC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F24BD63137473630057A592 /* 1 de junio de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1 de junio de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD64137473630057A592 /* 2 de agosto de 2004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2 de agosto de 2004.txt"; sourceTree = "<group>"; };
+		9F24BD65137473630057A592 /* 2 de agosto de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2 de agosto de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD66137473630057A592 /* 3 de septiembre de 1993.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3 de septiembre de 1993.txt"; sourceTree = "<group>"; };
+		9F24BD67137473630057A592 /* 4 de diciembre de 2006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4 de diciembre de 2006.txt"; sourceTree = "<group>"; };
+		9F24BD68137473630057A592 /* 4 de diciembre de 2006-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4 de diciembre de 2006-2.txt"; sourceTree = "<group>"; };
+		9F24BD69137473630057A592 /* 4 de mayo de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4 de mayo de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD6A137473630057A592 /* 5 de abril de 2004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5 de abril de 2004.txt"; sourceTree = "<group>"; };
+		9F24BD6B137473630057A592 /* 7 de abril de 2000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7 de abril de 2000.txt"; sourceTree = "<group>"; };
+		9F24BD6C137473630057A592 /* 7 de abril de 2006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7 de abril de 2006.txt"; sourceTree = "<group>"; };
+		9F24BD6D137473630057A592 /* 7 de mayo de 2008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7 de mayo de 2008.txt"; sourceTree = "<group>"; };
+		9F24BD6E137473630057A592 /* 8 de diciembre de 2005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8 de diciembre de 2005.txt"; sourceTree = "<group>"; };
+		9F24BD6F137473630057A592 /* 9 de diciembre de 2005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9 de diciembre de 2005.txt"; sourceTree = "<group>"; };
+		9F24BD70137473630057A592 /* 11 de junio de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11 de junio de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD71137473630057A592 /* 12 de diciembre de 2005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12 de diciembre de 2005.txt"; sourceTree = "<group>"; };
+		9F24BD72137473630057A592 /* 12 de febrero de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12 de febrero de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD73137473630057A592 /* 12 de noviembre de 2002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12 de noviembre de 2002.txt"; sourceTree = "<group>"; };
+		9F24BD74137473630057A592 /* 13 de abril de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "13 de abril de 2011.txt"; sourceTree = "<group>"; };
+		9F24BD75137473630057A592 /* 13 de noviembre de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "13 de noviembre de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD76137473630057A592 /* 13 de septiembre de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "13 de septiembre de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD77137473630057A592 /* 14 de agosto de 2001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "14 de agosto de 2001.txt"; sourceTree = "<group>"; };
+		9F24BD78137473630057A592 /* 14 de agosto de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "14 de agosto de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD79137473630057A592 /* 14 de junio de 2002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "14 de junio de 2002.txt"; sourceTree = "<group>"; };
+		9F24BD7A137473630057A592 /* 14 de septiembre de 2006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "14 de septiembre de 2006.txt"; sourceTree = "<group>"; };
+		9F24BD7B137473630057A592 /* 15 de agosto de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "15 de agosto de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD7C137473630057A592 /* 15 de agosto de 2008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "15 de agosto de 2008.txt"; sourceTree = "<group>"; };
+		9F24BD7D137473630057A592 /* 18 de junio de 2008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "18 de junio de 2008.txt"; sourceTree = "<group>"; };
+		9F24BD7E137473630057A592 /* 19 de junio de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "19 de junio de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD7F137473630057A592 /* 19 de junio de 2007-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "19 de junio de 2007-2.txt"; sourceTree = "<group>"; };
+		9F24BD80137473630057A592 /* 20 de julio de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20 de julio de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD81137473630057A592 /* 20 de julio de 2007-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20 de julio de 2007-2.txt"; sourceTree = "<group>"; };
+		9F24BD82137473630057A592 /* 20 de junio de 2005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20 de junio de 2005.txt"; sourceTree = "<group>"; };
+		9F24BD83137473630057A592 /* 20 de marzo de 1997.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20 de marzo de 1997.txt"; sourceTree = "<group>"; };
+		9F24BD84137473630057A592 /* 21 de septiembre de 2000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "21 de septiembre de 2000.txt"; sourceTree = "<group>"; };
+		9F24BD85137473630057A592 /* 21 de septiembre de 2000-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "21 de septiembre de 2000-2.txt"; sourceTree = "<group>"; };
+		9F24BD86137473630057A592 /* 22 de agosto de 1996.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "22 de agosto de 1996.txt"; sourceTree = "<group>"; };
+		9F24BD87137473630057A592 /* 22 de julio de 2004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "22 de julio de 2004.txt"; sourceTree = "<group>"; };
+		9F24BD88137473630057A592 /* 23 de diciembre de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "23 de diciembre de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD89137473630057A592 /* 24 de agosto de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "24 de agosto de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD8A137473630057A592 /* 25 de junio de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "25 de junio de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD8B137473630057A592 /* 25 de octubre de 1993.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "25 de octubre de 1993.txt"; sourceTree = "<group>"; };
+		9F24BD8C137473630057A592 /* 26 de febrero de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "26 de febrero de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD8D137473630057A592 /* 26 de septiembre de 2008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "26 de septiembre de 2008.txt"; sourceTree = "<group>"; };
+		9F24BD8E137473630057A592 /* 27 de abril de 2010.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de abril de 2010.txt"; sourceTree = "<group>"; };
+		9F24BD8F137473630057A592 /* 27 de septiembre de 2004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de septiembre de 2004.txt"; sourceTree = "<group>"; };
+		9F24BD90137473630057A592 /* 27 de septiembre de 2007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de septiembre de 2007.txt"; sourceTree = "<group>"; };
+		9F24BD91137473630057A592 /* 28 de junio de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "28 de junio de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD92137473630057A592 /* 28 de noviembre de 2005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "28 de noviembre de 2005.txt"; sourceTree = "<group>"; };
+		9F24BD93137473630057A592 /* 29 de agosto de 2008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "29 de agosto de 2008.txt"; sourceTree = "<group>"; };
+		9F24BD94137473630057A592 /* 29 de julio de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "29 de julio de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD95137473630057A592 /* 29 de julio de 2010.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "29 de julio de 2010.txt"; sourceTree = "<group>"; };
+		9F24BD96137473630057A592 /* 30 de abril de 2009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de abril de 2009.txt"; sourceTree = "<group>"; };
+		9F24BD97137473630057A592 /* 30 de abril de 2009-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de abril de 2009-2.txt"; sourceTree = "<group>"; };
+		9F24BD98137473630057A592 /* 30 de julio de 1999.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de julio de 1999.txt"; sourceTree = "<group>"; };
+		9F24BD99137473630057A592 /* 30 de julio de 2004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de julio de 2004.txt"; sourceTree = "<group>"; };
+		9F24BD9A137473630057A592 /* Artículo 31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 31.txt"; sourceTree = "<group>"; };
+		9F24BD9B137473630057A592 /* Artículo 32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 32.txt"; sourceTree = "<group>"; };
+		9F24BD9C137473630057A592 /* Artículo 33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 33.txt"; sourceTree = "<group>"; };
+		9F24BD9D137473630057A592 /* Artículo 34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 34.txt"; sourceTree = "<group>"; };
+		9F24BD9E137473630057A592 /* Artículo 35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 35.txt"; sourceTree = "<group>"; };
+		9F24BD9F137473630057A592 /* Artículo 36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 36.txt"; sourceTree = "<group>"; };
+		9F24BDA0137473630057A592 /* Artículo 37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 37.txt"; sourceTree = "<group>"; };
+		9F24BDA1137473630057A592 /* Artículo 38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 38.txt"; sourceTree = "<group>"; };
+		9F24BDA2137473630057A592 /* Artículo 39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 39.txt"; sourceTree = "<group>"; };
+		9F24BDA4137473630057A592 /* Artículo 41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 41.txt"; sourceTree = "<group>"; };
+		9F24BDA5137473630057A592 /* Artículo 42.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 42.txt"; sourceTree = "<group>"; };
+		9F24BDA6137473630057A592 /* Artículo 43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 43.txt"; sourceTree = "<group>"; };
+		9F24BDA7137473630057A592 /* Artículo 44.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 44.txt"; sourceTree = "<group>"; };
+		9F24BDA8137473630057A592 /* Artículo 45.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 45.txt"; sourceTree = "<group>"; };
+		9F24BDAA137473630057A592 /* Artículo 47.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 47.txt"; sourceTree = "<group>"; };
+		9F24BDAB137473630057A592 /* Artículo 48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 48.txt"; sourceTree = "<group>"; };
+		9F24BDAC137473630057A592 /* Artículo 49.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 49.txt"; sourceTree = "<group>"; };
+		9F24BDAD137473630057A592 /* Artículo 50.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 50.txt"; sourceTree = "<group>"; };
+		9F24BDAE137473630057A592 /* Artículo 51.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 51.txt"; sourceTree = "<group>"; };
+		9F24BDAF137473630057A592 /* Artículo 52.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 52.txt"; sourceTree = "<group>"; };
+		9F24BDB0137473630057A592 /* Artículo 53.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 53.txt"; sourceTree = "<group>"; };
+		9F24BDB1137473630057A592 /* Artículo 54.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 54.txt"; sourceTree = "<group>"; };
+		9F24BDB2137473630057A592 /* Artículo 55.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 55.txt"; sourceTree = "<group>"; };
+		9F24BDB3137473630057A592 /* Artículo 56.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 56.txt"; sourceTree = "<group>"; };
+		9F24BDB4137473630057A592 /* Artículo 57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 57.txt"; sourceTree = "<group>"; };
+		9F24BDB5137473630057A592 /* Artículo 58.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 58.txt"; sourceTree = "<group>"; };
+		9F24BDB6137473630057A592 /* Artículo 59.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 59.txt"; sourceTree = "<group>"; };
+		9F24BDB7137473630057A592 /* Artículo 60.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 60.txt"; sourceTree = "<group>"; };
+		9F24BDB8137473630057A592 /* Artículo 61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 61.txt"; sourceTree = "<group>"; };
+		9F24BDB9137473630057A592 /* Artículo 62.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 62.txt"; sourceTree = "<group>"; };
+		9F24BDBA137473630057A592 /* Artículo 63.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 63.txt"; sourceTree = "<group>"; };
+		9F24BDBB137473630057A592 /* Artículo 64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 64.txt"; sourceTree = "<group>"; };
+		9F24BDBC137473630057A592 /* Artículo 65.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 65.txt"; sourceTree = "<group>"; };
+		9F24BDBD137473630057A592 /* Artículo 66.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 66.txt"; sourceTree = "<group>"; };
+		9F24BDBE137473630057A592 /* Artículo 67.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 67.txt"; sourceTree = "<group>"; };
+		9F24BDBF137473630057A592 /* Artículo 68.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 68.txt"; sourceTree = "<group>"; };
+		9F24BDC0137473630057A592 /* Artículo 69.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 69.txt"; sourceTree = "<group>"; };
+		9F24BDC1137473630057A592 /* Artículo 70.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 70.txt"; sourceTree = "<group>"; };
+		9F24BDC2137473630057A592 /* Artículo 71.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 71.txt"; sourceTree = "<group>"; };
+		9F24BDC3137473630057A592 /* Artículo 72.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 72.txt"; sourceTree = "<group>"; };
+		9F24BDC5137473630057A592 /* Artículo 74.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 74.txt"; sourceTree = "<group>"; };
+		9F24BDC6137473630057A592 /* Artículo 75.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 75.txt"; sourceTree = "<group>"; };
+		9F24BDC7137473630057A592 /* Artículo 76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 76.txt"; sourceTree = "<group>"; };
+		9F24BDC8137473630057A592 /* Artículo 77.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 77.txt"; sourceTree = "<group>"; };
+		9F24BDC9137473630057A592 /* Artículo 78.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 78.txt"; sourceTree = "<group>"; };
+		9F24BDCA137473630057A592 /* Artículo 79.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 79.txt"; sourceTree = "<group>"; };
+		9F24BDCB137473630057A592 /* Artículo 80.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 80.txt"; sourceTree = "<group>"; };
+		9F24BDCC137473630057A592 /* Artículo 81.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 81.txt"; sourceTree = "<group>"; };
+		9F24BDCD137473630057A592 /* Artículo 82.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 82.txt"; sourceTree = "<group>"; };
+		9F24BDCE137473630057A592 /* Artículo 83.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 83.txt"; sourceTree = "<group>"; };
+		9F24BDCF137473630057A592 /* Artículo 84.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 84.txt"; sourceTree = "<group>"; };
+		9F24BDD0137473630057A592 /* Artículo 85.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 85.txt"; sourceTree = "<group>"; };
+		9F24BDD1137473630057A592 /* Artículo 86.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 86.txt"; sourceTree = "<group>"; };
+		9F24BDD2137473630057A592 /* Artículo 87.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 87.txt"; sourceTree = "<group>"; };
+		9F24BDD3137473630057A592 /* Artículo 88.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 88.txt"; sourceTree = "<group>"; };
+		9F24BDD4137473630057A592 /* Artículo 89.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 89.txt"; sourceTree = "<group>"; };
+		9F24BDD5137473630057A592 /* Artículo 90.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 90.txt"; sourceTree = "<group>"; };
+		9F24BDD6137473630057A592 /* Artículo 91.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 91.txt"; sourceTree = "<group>"; };
+		9F24BDD7137473630057A592 /* Artículo 92.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 92.txt"; sourceTree = "<group>"; };
+		9F24BDD8137473630057A592 /* Artículo 93.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 93.txt"; sourceTree = "<group>"; };
+		9F24BDD9137473630057A592 /* Artículo 94.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 94.txt"; sourceTree = "<group>"; };
+		9F24BDDA137473630057A592 /* Artículo 95.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 95.txt"; sourceTree = "<group>"; };
+		9F24BDDB137473630057A592 /* Artículo 96.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 96.txt"; sourceTree = "<group>"; };
+		9F24BDDC137473630057A592 /* Artículo 97.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 97.txt"; sourceTree = "<group>"; };
+		9F24BDDD137473630057A592 /* Artículo 98.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 98.txt"; sourceTree = "<group>"; };
+		9F24BDDE137473630057A592 /* Artículo 99.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 99.txt"; sourceTree = "<group>"; };
+		9F24BDDF137473630057A592 /* Artículo 100.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 100.txt"; sourceTree = "<group>"; };
+		9F24BDE0137473630057A592 /* Artículo 101.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 101.txt"; sourceTree = "<group>"; };
+		9F24BDE1137473630057A592 /* Artículo 102.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 102.txt"; sourceTree = "<group>"; };
+		9F24BDE2137473630057A592 /* Artículo 103.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 103.txt"; sourceTree = "<group>"; };
+		9F24BDE3137473630057A592 /* Artículo 104.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 104.txt"; sourceTree = "<group>"; };
+		9F24BDE5137473630057A592 /* Artículo 106.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 106.txt"; sourceTree = "<group>"; };
+		9F24BDE6137473630057A592 /* Artículo 107.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 107.txt"; sourceTree = "<group>"; };
+		9F24BDE7137473630057A592 /* Artículo 108.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 108.txt"; sourceTree = "<group>"; };
+		9F24BDE8137473630057A592 /* Artículo 109.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 109.txt"; sourceTree = "<group>"; };
+		9F24BDE9137473630057A592 /* Artículo 110.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 110.txt"; sourceTree = "<group>"; };
+		9F24BDEA137473630057A592 /* Artículo 111.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 111.txt"; sourceTree = "<group>"; };
+		9F24BDEB137473630057A592 /* Artículo 112.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 112.txt"; sourceTree = "<group>"; };
+		9F24BDEC137473630057A592 /* Artículo 113.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 113.txt"; sourceTree = "<group>"; };
+		9F24BDED137473630057A592 /* Artículo 114.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 114.txt"; sourceTree = "<group>"; };
+		9F24BDEE137473630057A592 /* Artículo 115.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 115.txt"; sourceTree = "<group>"; };
+		9F24BDEF137473630057A592 /* Artículo 116.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 116.txt"; sourceTree = "<group>"; };
+		9F24BDF0137473630057A592 /* Artículo 117.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 117.txt"; sourceTree = "<group>"; };
+		9F24BDF1137473630057A592 /* Artículo 118.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 118.txt"; sourceTree = "<group>"; };
+		9F24BDF2137473630057A592 /* Artículo 119.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 119.txt"; sourceTree = "<group>"; };
+		9F24BDF3137473630057A592 /* Artículo 120.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 120.txt"; sourceTree = "<group>"; };
+		9F24BDF4137473630057A592 /* Artículo 121.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 121.txt"; sourceTree = "<group>"; };
+		9F24BDF5137473630057A592 /* Artículo 122.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 122.txt"; sourceTree = "<group>"; };
+		9F24BDF6137473630057A592 /* Artículo 123.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 123.txt"; sourceTree = "<group>"; };
+		9F24BDF7137473630057A592 /* Artículo 124.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 124.txt"; sourceTree = "<group>"; };
+		9F24BDF8137473630057A592 /* Artículo 125.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 125.txt"; sourceTree = "<group>"; };
+		9F24BDF9137473630057A592 /* Artículo 126.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 126.txt"; sourceTree = "<group>"; };
+		9F24BDFA137473630057A592 /* Artículo 127.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 127.txt"; sourceTree = "<group>"; };
+		9F24BDFB137473630057A592 /* Artículo 128.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 128.txt"; sourceTree = "<group>"; };
+		9F24BDFC137473630057A592 /* Artículo 129.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 129.txt"; sourceTree = "<group>"; };
+		9F24BDFD137473630057A592 /* Artículo 130.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 130.txt"; sourceTree = "<group>"; };
+		9F24BDFE137473630057A592 /* Artículo 131.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 131.txt"; sourceTree = "<group>"; };
+		9F24BDFF137473630057A592 /* Artículo 132.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 132.txt"; sourceTree = "<group>"; };
+		9F24BE00137473630057A592 /* Artículo 133.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 133.txt"; sourceTree = "<group>"; };
+		9F24BE01137473630057A592 /* Artículo 134.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 134.txt"; sourceTree = "<group>"; };
+		9F24BE02137473630057A592 /* Artículo 135.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 135.txt"; sourceTree = "<group>"; };
+		9F24BE03137473630057A592 /* Artículo 136.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 136.txt"; sourceTree = "<group>"; };
+		9F24BE04137473630057A592 /* Artículo Cuarto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Cuarto.txt"; sourceTree = "<group>"; };
+		9F24BE05137473630057A592 /* Artículo Décimo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Décimo.txt"; sourceTree = "<group>"; };
+		9F24BE06137473630057A592 /* Artículo Decimoctavo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimoctavo.txt"; sourceTree = "<group>"; };
+		9F24BE07137473630057A592 /* Artículo Decimocuarto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimocuarto.txt"; sourceTree = "<group>"; };
+		9F24BE08137473630057A592 /* Artículo Decimonoveno.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimonoveno.txt"; sourceTree = "<group>"; };
+		9F24BE09137473630057A592 /* Artículo Decimoprimero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimoprimero.txt"; sourceTree = "<group>"; };
+		9F24BE0A137473630057A592 /* Artículo Decimoquinto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimoquinto.txt"; sourceTree = "<group>"; };
+		9F24BE0B137473630057A592 /* Artículo Decimosegundo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimosegundo.txt"; sourceTree = "<group>"; };
+		9F24BE0C137473630057A592 /* Artículo Decimoséptimo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimoséptimo.txt"; sourceTree = "<group>"; };
+		9F24BE0D137473630057A592 /* Artículo Decimosexto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimosexto.txt"; sourceTree = "<group>"; };
+		9F24BE0E137473630057A592 /* Artículo Decimotercero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Decimotercero.txt"; sourceTree = "<group>"; };
+		9F24BE0F137473630057A592 /* Artículo Noveno.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Noveno.txt"; sourceTree = "<group>"; };
+		9F24BE10137473630057A592 /* Artículo Octavo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Octavo.txt"; sourceTree = "<group>"; };
+		9F24BE11137473630057A592 /* Artículo Primero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Primero.txt"; sourceTree = "<group>"; };
+		9F24BE12137473630057A592 /* Artículo Quinto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Quinto.txt"; sourceTree = "<group>"; };
+		9F24BE13137473630057A592 /* Artículo Segundo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Segundo.txt"; sourceTree = "<group>"; };
+		9F24BE14137473630057A592 /* Artículo Séptimo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Séptimo.txt"; sourceTree = "<group>"; };
+		9F24BE15137473630057A592 /* Artículo Sexto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Sexto.txt"; sourceTree = "<group>"; };
+		9F24BE16137473630057A592 /* Artículo Tercero.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo Tercero.txt"; sourceTree = "<group>"; };
+		9F24BE17137473630057A592 /* Firmas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Firmas.txt; sourceTree = "<group>"; };
+		9F3926AA15D5E8AF00DC74E2 /* 9 de agosto de 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9 de agosto de 2012.txt"; sourceTree = "<group>"; };
+		9F5D7135180E09C0003093D8 /* 8 de octubre de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8 de octubre de 2013.txt"; sourceTree = "<group>"; };
+		9F5D7139180E112A003093D8 /* 30 de septiembre de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de septiembre de 2013.txt"; sourceTree = "<group>"; };
+		9F5E4EEB1372A5C70097758B /* Artículo 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 5.txt"; sourceTree = "<group>"; };
+		9F5E4EEC1372A5C70097758B /* Artículo 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 6.txt"; sourceTree = "<group>"; };
+		9F5E4EED1372A5C70097758B /* Artículo 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 7.txt"; sourceTree = "<group>"; };
+		9F5E4EEE1372A5C70097758B /* Artículo 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 8.txt"; sourceTree = "<group>"; };
+		9F5E4EF31372AD020097758B /* Artículo 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 9.txt"; sourceTree = "<group>"; };
+		9F5E4EF41372AD020097758B /* Artículo 10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 10.txt"; sourceTree = "<group>"; };
+		9F5E4EF51372AD020097758B /* Artículo 11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 11.txt"; sourceTree = "<group>"; };
+		9F5E4EF61372AD020097758B /* Artículo 12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 12.txt"; sourceTree = "<group>"; };
+		9F5E4EF71372AD020097758B /* Artículo 13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 13.txt"; sourceTree = "<group>"; };
+		9F5E4EF81372AD030097758B /* Artículo 14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 14.txt"; sourceTree = "<group>"; };
+		9F5E4EF91372AD030097758B /* Artículo 15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 15.txt"; sourceTree = "<group>"; };
+		9F5E4EFA1372AD030097758B /* Artículo 16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 16.txt"; sourceTree = "<group>"; };
+		9F5E4EFB1372AD030097758B /* Artículo 17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 17.txt"; sourceTree = "<group>"; };
+		9F5E4EFC1372AD030097758B /* Artículo 18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 18.txt"; sourceTree = "<group>"; };
+		9F5E4EFD1372AD030097758B /* Artículo 19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 19.txt"; sourceTree = "<group>"; };
+		9F5E4EFE1372AD040097758B /* Artículo 20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 20.txt"; sourceTree = "<group>"; };
+		9F5E4EFF1372AD040097758B /* Artículo 21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 21.txt"; sourceTree = "<group>"; };
+		9F5E4F001372AD040097758B /* Artículo 22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 22.txt"; sourceTree = "<group>"; };
+		9F5E4F011372AD040097758B /* Artículo 23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 23.txt"; sourceTree = "<group>"; };
+		9F5E4F021372AD050097758B /* Artículo 24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 24.txt"; sourceTree = "<group>"; };
+		9F5E4F031372AD050097758B /* Artículo 25.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 25.txt"; sourceTree = "<group>"; };
+		9F5E4F041372AD050097758B /* Artículo 26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 26.txt"; sourceTree = "<group>"; };
+		9F5E4F051372AD050097758B /* Artículo 27.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 27.txt"; sourceTree = "<group>"; };
+		9F5E4F061372AD050097758B /* Artículo 28.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 28.txt"; sourceTree = "<group>"; };
+		9F5E4F071372AD050097758B /* Artículo 29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 29.txt"; sourceTree = "<group>"; };
+		9F5E4F081372AD050097758B /* Artículo 30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 30.txt"; sourceTree = "<group>"; };
+		9F5EC00117A24275009BB336 /* Links.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Links.png; sourceTree = "<group>"; };
+		9F5EC00217A24276009BB336 /* Maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maps.png; sourceTree = "<group>"; };
+		9F5EC00317A24276009BB336 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		9F5EC00417A24277009BB336 /* Tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tasks.png; sourceTree = "<group>"; };
+		9F5EC00517A24278009BB336 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		9F6079CE169B3FD4008EC77F /* Artículo 105.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 105.txt"; sourceTree = "<group>"; };
+		9F6079D4169B438F008EC77F /* Artículo 46.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 46.txt"; sourceTree = "<group>"; };
+		9F63050F14ED91EE00FBFB3B /* 8 de febrero de 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8 de febrero de 2012.txt"; sourceTree = "<group>"; };
+		9F63051014ED91EE00FBFB3B /* 9 de febrero de 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9 de febrero de 2012.txt"; sourceTree = "<group>"; };
+		9F6F98CC1447B41600200510 /* 12 de octubre de 2011-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12 de octubre de 2011-2.txt"; sourceTree = "<group>"; };
+		9F6F98CD1447B41600200510 /* 12 de octubre de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "12 de octubre de 2011.txt"; sourceTree = "<group>"; };
+		9F6F98CE1447B41600200510 /* Artículo 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 4.txt"; sourceTree = "<group>"; };
+		9F6FC2FF16EAB6C5009C3455 /* 26 de febrero de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "26 de febrero de 2013.txt"; sourceTree = "<group>"; };
+		9F6FC30016EAB6C5009C3455 /* Artículo 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 3.txt"; sourceTree = "<group>"; };
+		9F6FC30116EAB6C5009C3455 /* Artículo 73.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = "Artículo 73.txt"; sourceTree = "<group>"; };
+		9F7A6E0517A2FDFD0010A56D /* Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face.png; sourceTree = "<group>"; };
+		9F7A6E0717A300D40010A56D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9F8101FB14436C2E00BE600E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		9F81020214436DCB00BE600E /* IlegisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IlegisViewController.h; sourceTree = "<group>"; };
+		9F81020314436DCB00BE600E /* IlegisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IlegisViewController.m; sourceTree = "<group>"; };
+		9F81020414436DCB00BE600E /* GmgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GmgViewController.h; sourceTree = "<group>"; };
+		9F81020514436DCB00BE600E /* GmgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GmgViewController.m; sourceTree = "<group>"; };
+		9F81020614436DCB00BE600E /* FbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbViewController.h; sourceTree = "<group>"; };
+		9F81020714436DCB00BE600E /* FbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbViewController.m; sourceTree = "<group>"; };
+		9F81020814436DCB00BE600E /* ilegisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ilegisViewController.xib; sourceTree = "<group>"; };
+		9F81020914436DCB00BE600E /* GmgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GmgViewController.xib; sourceTree = "<group>"; };
+		9F81020A14436DCB00BE600E /* FbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FbViewController.xib; sourceTree = "<group>"; };
+		9F8289DE13AC408300D12166 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		9F8289E013AC408F00D12166 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		9F82B58A13B26FF10020C69D /* 6 de junio de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6 de junio de 2011.txt"; sourceTree = "<group>"; };
+		9F82B58C13B26FFB0020C69D /* 10 de junio de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10 de junio de 2011.txt"; sourceTree = "<group>"; };
+		9F87305A1369F74B00B06EBE /* ArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		9F87305B1369F74B00B06EBE /* ArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		9F87305C1369F74B00B06EBE /* ArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleViewController.xib; sourceTree = "<group>"; };
+		9F87305F136A2BE100B06EBE /* Texto Vigente.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Texto Vigente.txt"; sourceTree = "<group>"; };
+		9F873071136A377C00B06EBE /* Artículo 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 1.txt"; sourceTree = "<group>"; };
+		9F873072136A377C00B06EBE /* Artículo 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 2.txt"; sourceTree = "<group>"; };
+		9F88C5F313CCD37900C938AE /* SendMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SendMail.png; sourceTree = "<group>"; };
+		9F927F45176BE49E00EBF5A5 /* 11 de junio de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "11 de junio de 2013.txt"; sourceTree = "<group>"; };
+		9F93B00613BCD58300406A7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		9F93CEAB1AC0AE4300A02961 /* 7 de julio de 2014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7 de julio de 2014.txt"; sourceTree = "<group>"; };
+		9F93CEAC1AC0AE4300A02961 /* 17 de junio de 2014 (1).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "17 de junio de 2014 (1).txt"; sourceTree = "<group>"; };
+		9F93CEAD1AC0AE4300A02961 /* 17 de junio de 2014 (2).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "17 de junio de 2014 (2).txt"; sourceTree = "<group>"; };
+		9F93CEAE1AC0AE4300A02961 /* 17 de junio de 2014 (3).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "17 de junio de 2014 (3).txt"; sourceTree = "<group>"; };
+		9F97418017D632940086A5D0 /* 19 de julio de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "19 de julio de 2013.txt"; sourceTree = "<group>"; };
+		9F9BAAEB16724CFB0096D7AC /* 30 de noviembre de 2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30 de noviembre de 2012.txt"; sourceTree = "<group>"; };
+		9F9BAAEE16724D1B0096D7AC /* Artículo 40.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Artículo 40.txt"; sourceTree = "<group>"; };
+		9F9C24C117A33CB800837860 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		9F9C24C217A33CB800837860 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		9F9C24C317A33CB800837860 /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		9F9C24C617A342A000837860 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		9F9C24C817A34C5A00837860 /* Alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alarm.png; sourceTree = "<group>"; };
+		9FA5ABFF13DF3E82003B8647 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9FA5AC0213DF3FD4003B8647 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		9FA5AC0313DF3FD4003B8647 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		9FA5AC0413DF3FD4003B8647 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = ../MapViewController.xib; sourceTree = "<group>"; };
+		9FA5AC0713DF4B89003B8647 /* SCJNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCJNViewController.h; path = ../SCJNViewController.h; sourceTree = "<group>"; };
+		9FA5AC0813DF4B8A003B8647 /* SCJNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCJNViewController.m; path = ../SCJNViewController.m; sourceTree = "<group>"; };
+		9FA5AC0C13DF4EF8003B8647 /* JFDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JFDFViewController.h; path = ../JFDFViewController.h; sourceTree = "<group>"; };
+		9FA5AC0D13DF4EF8003B8647 /* JFDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JFDFViewController.m; path = ../JFDFViewController.m; sourceTree = "<group>"; };
+		9FA5AC1713DF5CDF003B8647 /* TSJDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSJDFViewController.h; path = ../TSJDFViewController.h; sourceTree = "<group>"; };
+		9FA5AC1813DF5CDF003B8647 /* TSJDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSJDFViewController.m; path = ../TSJDFViewController.m; sourceTree = "<group>"; };
+		9FA5AC1A13DF6553003B8647 /* JPenalDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPenalDFViewController.h; sourceTree = "<group>"; };
+		9FA5AC1B13DF6553003B8647 /* JPenalDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPenalDFViewController.m; sourceTree = "<group>"; };
+		9FA687B5138ACF4900486A3D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9FA687B6138ACF4A00486A3D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9FA687B7138ACF4A00486A3D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		9FA8479013B92D8D007CC6B6 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		9FA8479613B93003007CC6B6 /* Logo-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-facebook.png"; sourceTree = "<group>"; };
+		9FA8479713B93003007CC6B6 /* Logo-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-mail.png"; sourceTree = "<group>"; };
+		9FA8479C13B9302F007CC6B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9FA9E7E21415D4D600EE66FA /* Activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Activity.png; sourceTree = "<group>"; };
+		9FA9E7EC1415E25A00EE66FA /* 17 de agosto de 2011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "17 de agosto de 2011.txt"; sourceTree = "<group>"; };
+		9FACA3A7135DE2AB001F9BC5 /* Constitución MX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constitución MX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FACA3AB135DE2AB001F9BC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FACA3AD135DE2AB001F9BC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FACA3AF135DE2AB001F9BC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FACA3B1135DE2AB001F9BC5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9FACA3B5135DE2AB001F9BC5 /* LawViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LawViewer-Info.plist"; sourceTree = "<group>"; };
+		9FACA3B7135DE2AB001F9BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FACA3B9135DE2AB001F9BC5 /* LawViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LawViewer-Prefix.pch"; sourceTree = "<group>"; };
+		9FACA3BA135DE2AB001F9BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FACA3BC135DE2AB001F9BC5 /* LawViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LawViewerAppDelegate.h; sourceTree = "<group>"; };
+		9FACA3BD135DE2AB001F9BC5 /* LawViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawViewerAppDelegate.m; sourceTree = "<group>"; };
+		9FACA3C0135DE2AB001F9BC5 /* LawViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LawViewer.xcdatamodel; sourceTree = "<group>"; };
+		9FACA3C3135DE2AB001F9BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9FACA3C5135DE2AB001F9BC5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9FACA3C6135DE2AB001F9BC5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9FACA3C9135DE2AB001F9BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		9FACA3D0135DE2AB001F9BC5 /* LawViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FACA3D9135DE2AB001F9BC5 /* Constitución MexicanaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constitución MexicanaTests-Info.plist"; sourceTree = "<group>"; };
+		9FACA3DB135DE2AB001F9BC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FACA3DD135DE2AB001F9BC5 /* LawViewerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LawViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		9FACA3DE135DE2AB001F9BC5 /* LawViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LawViewerTests.h; sourceTree = "<group>"; };
+		9FACA3E0135DE2AB001F9BC5 /* LawViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawViewerTests.m; sourceTree = "<group>"; };
+		9FACA3EA135DE98A001F9BC5 /* LeyesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyesViewController.h; sourceTree = "<group>"; };
+		9FACA3EB135DE98A001F9BC5 /* LeyesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyesViewController.m; sourceTree = "<group>"; };
+		9FACA3ED135DED19001F9BC5 /* LeyesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeyesViewController.xib; sourceTree = "<group>"; };
+		9FAE716D13E078400017EF1F /* Iron114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Iron114.png; path = ../Iron114.png; sourceTree = "<group>"; };
+		9FB86C5E18ABCD2A0035C790 /* 7 de febrero de 2014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "7 de febrero de 2014.txt"; sourceTree = "<group>"; };
+		9FB86C5F18ABCD2A0035C790 /* 10 de febrero de 2014.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10 de febrero de 2014.txt"; sourceTree = "<group>"; };
+		9FC09254187C4FB40074E7F7 /* 20 de diciembre de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20 de diciembre de 2013.txt"; sourceTree = "<group>"; };
+		9FC09255187C4FB40074E7F7 /* 27 de diciembre de 2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de diciembre de 2013.txt"; sourceTree = "<group>"; };
+		9FCE3BB313BB6AB5007783CC /* Logo-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-twitter.png"; sourceTree = "<group>"; };
+		9FEF5AAE15EE8043003BAE0B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9FF6541C1590EB310058D123 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		9FF6541E1590EB3B0058D123 /* FlipsideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideViewController.xib; sourceTree = "<group>"; };
+		9FF654201590EB460058D123 /* GMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMG.png; sourceTree = "<group>"; };
+		BE12B38315DEB29D00120DC9 /* BuscadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuscadorViewController.h; sourceTree = "<group>"; };
+		BE12B38415DEB29D00120DC9 /* BuscadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuscadorViewController.m; sourceTree = "<group>"; };
+		BE12B38515DEB29D00120DC9 /* BuscadorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuscadorViewController.xib; sourceTree = "<group>"; };
+		BE560A0215DAEF2900720C21 /* UIWebViewSearch2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = UIWebViewSearch2.js; sourceTree = "<group>"; };
+		BE8FFE2615DBF82D00EFAE99 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		BE8FFE2915DBF84B00EFAE99 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C317D3CE1C60098F00FF31E4 /* 27 de enero de 2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de enero de 2016.txt"; sourceTree = "<group>"; };
+		C32FEB841C6A9135007819C8 /* 29 de enero de 2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "29 de enero de 2016.txt"; sourceTree = "<group>"; };
+		C3D774761C0CEDEF001B586C /* 2 de julio de 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2 de julio de 2015.txt"; sourceTree = "<group>"; };
+		C3D774771C0CEDEF001B586C /* 10 de julio de 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10 de julio de 2015.txt"; sourceTree = "<group>"; };
+		C3D774781C0CEDEF001B586C /* 22 de mayo de 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "22 de mayo de 2015.txt"; sourceTree = "<group>"; };
+		C3D774791C0CEDEF001B586C /* 26 de mayo de 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "26 de mayo de 2015.txt"; sourceTree = "<group>"; };
+		C3D7747A1C0CEDEF001B586C /* 27 de mayo de 2015.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "27 de mayo de 2015.txt"; sourceTree = "<group>"; };
+		C3D774811C0D1482001B586C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		C3D774821C0D1482001B586C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		C3D774841C0D14C8001B586C /* AppiraterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		C3D774851C0D150C001B586C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FACA3A4135DE2AB001F9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D774861C0D150C001B586C /* StoreKit.framework in Frameworks */,
+				9F9C24C717A342A000837860 /* EventKit.framework in Frameworks */,
+				9F7A6E0817A300D40010A56D /* Social.framework in Frameworks */,
+				9FEF5AAF15EE8043003BAE0B /* MediaPlayer.framework in Frameworks */,
+				9F8101FC14436C2E00BE600E /* Twitter.framework in Frameworks */,
+				9F067A50141A01960035B5B9 /* SystemConfiguration.framework in Frameworks */,
+				9F067A4D141A018E0035B5B9 /* CFNetwork.framework in Frameworks */,
+				9FA5AC0013DF3E82003B8647 /* MapKit.framework in Frameworks */,
+				9FA8479D13B9302F007CC6B6 /* MessageUI.framework in Frameworks */,
+				9FACA3AC135DE2AB001F9BC5 /* UIKit.framework in Frameworks */,
+				9FACA3AE135DE2AB001F9BC5 /* Foundation.framework in Frameworks */,
+				9FACA3B0135DE2AB001F9BC5 /* CoreGraphics.framework in Frameworks */,
+				9FACA3B2135DE2AB001F9BC5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FACA3CC135DE2AB001F9BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FACA3D1135DE2AB001F9BC5 /* UIKit.framework in Frameworks */,
+				9FACA3D2135DE2AB001F9BC5 /* Foundation.framework in Frameworks */,
+				9FACA3D3135DE2AB001F9BC5 /* CoreGraphics.framework in Frameworks */,
+				9FACA3D4135DE2AB001F9BC5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F84C23F1399228700F6168A /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				C32FEB841C6A9135007819C8 /* 29 de enero de 2016.txt */,
+				C317D3CE1C60098F00FF31E4 /* 27 de enero de 2016.txt */,
+				C3D774761C0CEDEF001B586C /* 2 de julio de 2015.txt */,
+				C3D774771C0CEDEF001B586C /* 10 de julio de 2015.txt */,
+				C3D774781C0CEDEF001B586C /* 22 de mayo de 2015.txt */,
+				C3D774791C0CEDEF001B586C /* 26 de mayo de 2015.txt */,
+				C3D7747A1C0CEDEF001B586C /* 27 de mayo de 2015.txt */,
+				9F93CEAB1AC0AE4300A02961 /* 7 de julio de 2014.txt */,
+				9F93CEAC1AC0AE4300A02961 /* 17 de junio de 2014 (1).txt */,
+				9F93CEAD1AC0AE4300A02961 /* 17 de junio de 2014 (2).txt */,
+				9F93CEAE1AC0AE4300A02961 /* 17 de junio de 2014 (3).txt */,
+				9FB86C5E18ABCD2A0035C790 /* 7 de febrero de 2014.txt */,
+				9FB86C5F18ABCD2A0035C790 /* 10 de febrero de 2014.txt */,
+				9FC09254187C4FB40074E7F7 /* 20 de diciembre de 2013.txt */,
+				9FC09255187C4FB40074E7F7 /* 27 de diciembre de 2013.txt */,
+				9F5D7135180E09C0003093D8 /* 8 de octubre de 2013.txt */,
+				9F5D7139180E112A003093D8 /* 30 de septiembre de 2013.txt */,
+				9F97418017D632940086A5D0 /* 19 de julio de 2013.txt */,
+				9F927F45176BE49E00EBF5A5 /* 11 de junio de 2013.txt */,
+				9F6FC2FF16EAB6C5009C3455 /* 26 de febrero de 2013.txt */,
+				9F6FC30016EAB6C5009C3455 /* Artículo 3.txt */,
+				9F6FC30116EAB6C5009C3455 /* Artículo 73.txt */,
+				9F9BAAEB16724CFB0096D7AC /* 30 de noviembre de 2012.txt */,
+				9F1DC613162DF5F200D6664B /* 15 de octubre de 2012.txt */,
+				9F3926AA15D5E8AF00DC74E2 /* 9 de agosto de 2012.txt */,
+				9F63050F14ED91EE00FBFB3B /* 8 de febrero de 2012.txt */,
+				9F63051014ED91EE00FBFB3B /* 9 de febrero de 2012.txt */,
+				9FA9E7EC1415E25A00EE66FA /* 17 de agosto de 2011.txt */,
+				9F0FF04913E86CAD006298CB /* 14 de julio de 2011.txt */,
+				9F87305F136A2BE100B06EBE /* Texto Vigente.txt */,
+				9F6F98CC1447B41600200510 /* 12 de octubre de 2011-2.txt */,
+				9F6F98CD1447B41600200510 /* 12 de octubre de 2011.txt */,
+				9F6F98CE1447B41600200510 /* Artículo 4.txt */,
+				9F873071136A377C00B06EBE /* Artículo 1.txt */,
+				9F873072136A377C00B06EBE /* Artículo 2.txt */,
+				9F5E4EEB1372A5C70097758B /* Artículo 5.txt */,
+				9F5E4EEC1372A5C70097758B /* Artículo 6.txt */,
+				9F5E4EED1372A5C70097758B /* Artículo 7.txt */,
+				9F5E4EEE1372A5C70097758B /* Artículo 8.txt */,
+				9F5E4EF31372AD020097758B /* Artículo 9.txt */,
+				9F5E4EF41372AD020097758B /* Artículo 10.txt */,
+				9F5E4EF51372AD020097758B /* Artículo 11.txt */,
+				9F5E4EF61372AD020097758B /* Artículo 12.txt */,
+				9F5E4EF71372AD020097758B /* Artículo 13.txt */,
+				9F5E4EF81372AD030097758B /* Artículo 14.txt */,
+				9F5E4EF91372AD030097758B /* Artículo 15.txt */,
+				9F5E4EFA1372AD030097758B /* Artículo 16.txt */,
+				9F5E4EFB1372AD030097758B /* Artículo 17.txt */,
+				9F5E4EFC1372AD030097758B /* Artículo 18.txt */,
+				9F5E4EFD1372AD030097758B /* Artículo 19.txt */,
+				9F5E4EFE1372AD040097758B /* Artículo 20.txt */,
+				9F5E4EFF1372AD040097758B /* Artículo 21.txt */,
+				9F5E4F001372AD040097758B /* Artículo 22.txt */,
+				9F5E4F011372AD040097758B /* Artículo 23.txt */,
+				9F5E4F021372AD050097758B /* Artículo 24.txt */,
+				9F5E4F031372AD050097758B /* Artículo 25.txt */,
+				9F5E4F041372AD050097758B /* Artículo 26.txt */,
+				9F5E4F051372AD050097758B /* Artículo 27.txt */,
+				9F5E4F061372AD050097758B /* Artículo 28.txt */,
+				9F5E4F071372AD050097758B /* Artículo 29.txt */,
+				9F5E4F081372AD050097758B /* Artículo 30.txt */,
+				9F24BD9A137473630057A592 /* Artículo 31.txt */,
+				9F24BD9B137473630057A592 /* Artículo 32.txt */,
+				9F24BD9C137473630057A592 /* Artículo 33.txt */,
+				9F24BD9D137473630057A592 /* Artículo 34.txt */,
+				9F24BD9E137473630057A592 /* Artículo 35.txt */,
+				9F24BD9F137473630057A592 /* Artículo 36.txt */,
+				9F24BDA0137473630057A592 /* Artículo 37.txt */,
+				9F24BDA1137473630057A592 /* Artículo 38.txt */,
+				9F24BDA2137473630057A592 /* Artículo 39.txt */,
+				9F9BAAEE16724D1B0096D7AC /* Artículo 40.txt */,
+				9F24BDA4137473630057A592 /* Artículo 41.txt */,
+				9F24BDA5137473630057A592 /* Artículo 42.txt */,
+				9F24BDA6137473630057A592 /* Artículo 43.txt */,
+				9F24BDA7137473630057A592 /* Artículo 44.txt */,
+				9F24BDA8137473630057A592 /* Artículo 45.txt */,
+				9F6079D4169B438F008EC77F /* Artículo 46.txt */,
+				9F24BDAA137473630057A592 /* Artículo 47.txt */,
+				9F24BDAB137473630057A592 /* Artículo 48.txt */,
+				9F24BDAC137473630057A592 /* Artículo 49.txt */,
+				9F24BDAD137473630057A592 /* Artículo 50.txt */,
+				9F24BDAE137473630057A592 /* Artículo 51.txt */,
+				9F24BDAF137473630057A592 /* Artículo 52.txt */,
+				9F24BDB0137473630057A592 /* Artículo 53.txt */,
+				9F24BDB1137473630057A592 /* Artículo 54.txt */,
+				9F24BDB2137473630057A592 /* Artículo 55.txt */,
+				9F24BDB3137473630057A592 /* Artículo 56.txt */,
+				9F24BDB4137473630057A592 /* Artículo 57.txt */,
+				9F24BDB5137473630057A592 /* Artículo 58.txt */,
+				9F24BDB6137473630057A592 /* Artículo 59.txt */,
+				9F24BDB7137473630057A592 /* Artículo 60.txt */,
+				9F24BDB8137473630057A592 /* Artículo 61.txt */,
+				9F24BDB9137473630057A592 /* Artículo 62.txt */,
+				9F24BDBA137473630057A592 /* Artículo 63.txt */,
+				9F24BDBB137473630057A592 /* Artículo 64.txt */,
+				9F24BDBC137473630057A592 /* Artículo 65.txt */,
+				9F24BDBD137473630057A592 /* Artículo 66.txt */,
+				9F24BDBE137473630057A592 /* Artículo 67.txt */,
+				9F24BDBF137473630057A592 /* Artículo 68.txt */,
+				9F24BDC0137473630057A592 /* Artículo 69.txt */,
+				9F24BDC1137473630057A592 /* Artículo 70.txt */,
+				9F24BDC2137473630057A592 /* Artículo 71.txt */,
+				9F24BDC3137473630057A592 /* Artículo 72.txt */,
+				9F24BDC5137473630057A592 /* Artículo 74.txt */,
+				9F24BDC6137473630057A592 /* Artículo 75.txt */,
+				9F24BDC7137473630057A592 /* Artículo 76.txt */,
+				9F24BDC8137473630057A592 /* Artículo 77.txt */,
+				9F24BDC9137473630057A592 /* Artículo 78.txt */,
+				9F24BDCA137473630057A592 /* Artículo 79.txt */,
+				9F24BDCB137473630057A592 /* Artículo 80.txt */,
+				9F24BDCC137473630057A592 /* Artículo 81.txt */,
+				9F24BDCD137473630057A592 /* Artículo 82.txt */,
+				9F24BDCE137473630057A592 /* Artículo 83.txt */,
+				9F24BDCF137473630057A592 /* Artículo 84.txt */,
+				9F24BDD0137473630057A592 /* Artículo 85.txt */,
+				9F24BDD1137473630057A592 /* Artículo 86.txt */,
+				9F24BDD2137473630057A592 /* Artículo 87.txt */,
+				9F24BDD3137473630057A592 /* Artículo 88.txt */,
+				9F24BDD4137473630057A592 /* Artículo 89.txt */,
+				9F24BDD5137473630057A592 /* Artículo 90.txt */,
+				9F24BDD6137473630057A592 /* Artículo 91.txt */,
+				9F24BDD7137473630057A592 /* Artículo 92.txt */,
+				9F24BDD8137473630057A592 /* Artículo 93.txt */,
+				9F24BDD9137473630057A592 /* Artículo 94.txt */,
+				9F24BDDA137473630057A592 /* Artículo 95.txt */,
+				9F24BDDB137473630057A592 /* Artículo 96.txt */,
+				9F24BDDC137473630057A592 /* Artículo 97.txt */,
+				9F24BDDD137473630057A592 /* Artículo 98.txt */,
+				9F24BDDE137473630057A592 /* Artículo 99.txt */,
+				9F24BDDF137473630057A592 /* Artículo 100.txt */,
+				9F24BDE0137473630057A592 /* Artículo 101.txt */,
+				9F24BDE1137473630057A592 /* Artículo 102.txt */,
+				9F24BDE2137473630057A592 /* Artículo 103.txt */,
+				9F24BDE3137473630057A592 /* Artículo 104.txt */,
+				9F6079CE169B3FD4008EC77F /* Artículo 105.txt */,
+				9F24BDE5137473630057A592 /* Artículo 106.txt */,
+				9F24BDE6137473630057A592 /* Artículo 107.txt */,
+				9F24BDE7137473630057A592 /* Artículo 108.txt */,
+				9F24BDE8137473630057A592 /* Artículo 109.txt */,
+				9F24BDE9137473630057A592 /* Artículo 110.txt */,
+				9F24BDEA137473630057A592 /* Artículo 111.txt */,
+				9F24BDEB137473630057A592 /* Artículo 112.txt */,
+				9F24BDEC137473630057A592 /* Artículo 113.txt */,
+				9F24BDED137473630057A592 /* Artículo 114.txt */,
+				9F24BDEE137473630057A592 /* Artículo 115.txt */,
+				9F24BDEF137473630057A592 /* Artículo 116.txt */,
+				9F24BDF0137473630057A592 /* Artículo 117.txt */,
+				9F24BDF1137473630057A592 /* Artículo 118.txt */,
+				9F24BDF2137473630057A592 /* Artículo 119.txt */,
+				9F24BDF3137473630057A592 /* Artículo 120.txt */,
+				9F24BDF4137473630057A592 /* Artículo 121.txt */,
+				9F24BDF5137473630057A592 /* Artículo 122.txt */,
+				9F24BDF6137473630057A592 /* Artículo 123.txt */,
+				9F24BDF7137473630057A592 /* Artículo 124.txt */,
+				9F24BDF8137473630057A592 /* Artículo 125.txt */,
+				9F24BDF9137473630057A592 /* Artículo 126.txt */,
+				9F24BDFA137473630057A592 /* Artículo 127.txt */,
+				9F24BDFB137473630057A592 /* Artículo 128.txt */,
+				9F24BDFC137473630057A592 /* Artículo 129.txt */,
+				9F24BDFD137473630057A592 /* Artículo 130.txt */,
+				9F24BDFE137473630057A592 /* Artículo 131.txt */,
+				9F24BDFF137473630057A592 /* Artículo 132.txt */,
+				9F24BE00137473630057A592 /* Artículo 133.txt */,
+				9F24BE01137473630057A592 /* Artículo 134.txt */,
+				9F24BE02137473630057A592 /* Artículo 135.txt */,
+				9F24BE03137473630057A592 /* Artículo 136.txt */,
+				9F24BE04137473630057A592 /* Artículo Cuarto.txt */,
+				9F24BE05137473630057A592 /* Artículo Décimo.txt */,
+				9F24BE06137473630057A592 /* Artículo Decimoctavo.txt */,
+				9F24BE07137473630057A592 /* Artículo Decimocuarto.txt */,
+				9F24BE08137473630057A592 /* Artículo Decimonoveno.txt */,
+				9F24BE09137473630057A592 /* Artículo Decimoprimero.txt */,
+				9F24BE0A137473630057A592 /* Artículo Decimoquinto.txt */,
+				9F24BE0B137473630057A592 /* Artículo Decimosegundo.txt */,
+				9F24BE0C137473630057A592 /* Artículo Decimoséptimo.txt */,
+				9F24BE0D137473630057A592 /* Artículo Decimosexto.txt */,
+				9F24BE0E137473630057A592 /* Artículo Decimotercero.txt */,
+				9F24BE0F137473630057A592 /* Artículo Noveno.txt */,
+				9F24BE10137473630057A592 /* Artículo Octavo.txt */,
+				9F24BE11137473630057A592 /* Artículo Primero.txt */,
+				9F24BE12137473630057A592 /* Artículo Quinto.txt */,
+				9F24BE13137473630057A592 /* Artículo Segundo.txt */,
+				9F24BE14137473630057A592 /* Artículo Séptimo.txt */,
+				9F24BE15137473630057A592 /* Artículo Sexto.txt */,
+				9F24BE16137473630057A592 /* Artículo Tercero.txt */,
+				9F24BE17137473630057A592 /* Firmas.txt */,
+				9F24BD63137473630057A592 /* 1 de junio de 2009.txt */,
+				9F24BD64137473630057A592 /* 2 de agosto de 2004.txt */,
+				9F24BD65137473630057A592 /* 2 de agosto de 2007.txt */,
+				9F24BD66137473630057A592 /* 3 de septiembre de 1993.txt */,
+				9F24BD67137473630057A592 /* 4 de diciembre de 2006.txt */,
+				9F24BD68137473630057A592 /* 4 de diciembre de 2006-2.txt */,
+				9F24BD69137473630057A592 /* 4 de mayo de 2009.txt */,
+				9F24BD6A137473630057A592 /* 5 de abril de 2004.txt */,
+				9F82B58A13B26FF10020C69D /* 6 de junio de 2011.txt */,
+				9F24BD6B137473630057A592 /* 7 de abril de 2000.txt */,
+				9F24BD6C137473630057A592 /* 7 de abril de 2006.txt */,
+				9F24BD6D137473630057A592 /* 7 de mayo de 2008.txt */,
+				9F24BD6E137473630057A592 /* 8 de diciembre de 2005.txt */,
+				9F24BD6F137473630057A592 /* 9 de diciembre de 2005.txt */,
+				9F82B58C13B26FFB0020C69D /* 10 de junio de 2011.txt */,
+				9F24BD70137473630057A592 /* 11 de junio de 1999.txt */,
+				9F24BD71137473630057A592 /* 12 de diciembre de 2005.txt */,
+				9F24BD72137473630057A592 /* 12 de febrero de 2007.txt */,
+				9F24BD73137473630057A592 /* 12 de noviembre de 2002.txt */,
+				9F24BD74137473630057A592 /* 13 de abril de 2011.txt */,
+				9F24BD75137473630057A592 /* 13 de noviembre de 2007.txt */,
+				9F24BD76137473630057A592 /* 13 de septiembre de 1999.txt */,
+				9F24BD77137473630057A592 /* 14 de agosto de 2001.txt */,
+				9F24BD78137473630057A592 /* 14 de agosto de 2009.txt */,
+				9F24BD79137473630057A592 /* 14 de junio de 2002.txt */,
+				9F24BD7A137473630057A592 /* 14 de septiembre de 2006.txt */,
+				9F24BD7B137473630057A592 /* 15 de agosto de 2007.txt */,
+				9F24BD7C137473630057A592 /* 15 de agosto de 2008.txt */,
+				9F24BD7D137473630057A592 /* 18 de junio de 2008.txt */,
+				9F24BD7E137473630057A592 /* 19 de junio de 2007.txt */,
+				9F24BD7F137473630057A592 /* 19 de junio de 2007-2.txt */,
+				9F24BD80137473630057A592 /* 20 de julio de 2007.txt */,
+				9F24BD81137473630057A592 /* 20 de julio de 2007-2.txt */,
+				9F24BD82137473630057A592 /* 20 de junio de 2005.txt */,
+				9F24BD83137473630057A592 /* 20 de marzo de 1997.txt */,
+				9F24BD84137473630057A592 /* 21 de septiembre de 2000.txt */,
+				9F24BD85137473630057A592 /* 21 de septiembre de 2000-2.txt */,
+				9F24BD86137473630057A592 /* 22 de agosto de 1996.txt */,
+				9F24BD87137473630057A592 /* 22 de julio de 2004.txt */,
+				9F24BD88137473630057A592 /* 23 de diciembre de 1999.txt */,
+				9F24BD89137473630057A592 /* 24 de agosto de 2009.txt */,
+				9F24BD8A137473630057A592 /* 25 de junio de 2009.txt */,
+				9F24BD8B137473630057A592 /* 25 de octubre de 1993.txt */,
+				9F24BD8C137473630057A592 /* 26 de febrero de 1999.txt */,
+				9F24BD8D137473630057A592 /* 26 de septiembre de 2008.txt */,
+				9F24BD8E137473630057A592 /* 27 de abril de 2010.txt */,
+				9F24BD8F137473630057A592 /* 27 de septiembre de 2004.txt */,
+				9F24BD90137473630057A592 /* 27 de septiembre de 2007.txt */,
+				9F24BD91137473630057A592 /* 28 de junio de 1999.txt */,
+				9F24BD92137473630057A592 /* 28 de noviembre de 2005.txt */,
+				9F24BD93137473630057A592 /* 29 de agosto de 2008.txt */,
+				9F24BD94137473630057A592 /* 29 de julio de 1999.txt */,
+				9F24BD95137473630057A592 /* 29 de julio de 2010.txt */,
+				9F24BD96137473630057A592 /* 30 de abril de 2009.txt */,
+				9F24BD97137473630057A592 /* 30 de abril de 2009-2.txt */,
+				9F24BD98137473630057A592 /* 30 de julio de 1999.txt */,
+				9F24BD99137473630057A592 /* 30 de julio de 2004.txt */,
+			);
+			name = Articles;
+			sourceTree = "<group>";
+		};
+		9F93B00313BCD57D00406A7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				9F93B00513BCD58300406A7C /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		9FACA39C135DE2AA001F9BC5 = {
+			isa = PBXGroup;
+			children = (
+				9FACA3B3135DE2AB001F9BC5 /* LawViewer */,
+				9FACA3D7135DE2AB001F9BC5 /* LawViewerTests */,
+				9FACA3AA135DE2AB001F9BC5 /* Frameworks */,
+				9FACA3A8135DE2AB001F9BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FACA3A8135DE2AB001F9BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FACA3A7135DE2AB001F9BC5 /* Constitución MX.app */,
+				9FACA3D0135DE2AB001F9BC5 /* LawViewerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FACA3AA135DE2AB001F9BC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D774851C0D150C001B586C /* StoreKit.framework */,
+				9F9C24C617A342A000837860 /* EventKit.framework */,
+				9F7A6E0717A300D40010A56D /* Social.framework */,
+				9FEF5AAE15EE8043003BAE0B /* MediaPlayer.framework */,
+				9F8101FB14436C2E00BE600E /* Twitter.framework */,
+				9F067A4F141A01960035B5B9 /* SystemConfiguration.framework */,
+				9F067A4C141A018E0035B5B9 /* CFNetwork.framework */,
+				9FA5ABFF13DF3E82003B8647 /* MapKit.framework */,
+				9FA8479C13B9302F007CC6B6 /* MessageUI.framework */,
+				9FACA3AB135DE2AB001F9BC5 /* UIKit.framework */,
+				9FACA3AD135DE2AB001F9BC5 /* Foundation.framework */,
+				9FACA3AF135DE2AB001F9BC5 /* CoreGraphics.framework */,
+				9FACA3B1135DE2AB001F9BC5 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FACA3B3135DE2AB001F9BC5 /* LawViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BE560A0215DAEF2900720C21 /* UIWebViewSearch2.js */,
+				C3D774841C0D14C8001B586C /* AppiraterDelegate.h */,
+				C3D774811C0D1482001B586C /* Appirater.h */,
+				C3D774821C0D1482001B586C /* Appirater.m */,
+				9FACA3BC135DE2AB001F9BC5 /* LawViewerAppDelegate.h */,
+				9FACA3BD135DE2AB001F9BC5 /* LawViewerAppDelegate.m */,
+				9FACA3C5135DE2AB001F9BC5 /* RootViewController.h */,
+				9FACA3C6135DE2AB001F9BC5 /* RootViewController.m */,
+				9F9C24C117A33CB800837860 /* ReminderViewController.h */,
+				9F9C24C217A33CB800837860 /* ReminderViewController.m */,
+				9F9C24C317A33CB800837860 /* ReminderViewController.xib */,
+				9FACA3EA135DE98A001F9BC5 /* LeyesViewController.h */,
+				9FACA3EB135DE98A001F9BC5 /* LeyesViewController.m */,
+				BE12B38315DEB29D00120DC9 /* BuscadorViewController.h */,
+				BE12B38415DEB29D00120DC9 /* BuscadorViewController.m */,
+				882AE05015E5248700D488E4 /* OverlayViewController.h */,
+				882AE05115E5248700D488E4 /* OverlayViewController.m */,
+				9F87305A1369F74B00B06EBE /* ArticleViewController.h */,
+				9F87305B1369F74B00B06EBE /* ArticleViewController.m */,
+				9FA687B5138ACF4900486A3D /* WebViewController.h */,
+				9FA687B6138ACF4A00486A3D /* WebViewController.m */,
+				9FA8479013B92D8D007CC6B6 /* FlipsideViewController.h */,
+				9FF6541C1590EB310058D123 /* FlipsideViewController.m */,
+				9F81020214436DCB00BE600E /* IlegisViewController.h */,
+				9F81020314436DCB00BE600E /* IlegisViewController.m */,
+				9F81020414436DCB00BE600E /* GmgViewController.h */,
+				9F81020514436DCB00BE600E /* GmgViewController.m */,
+				9F81020614436DCB00BE600E /* FbViewController.h */,
+				9F81020714436DCB00BE600E /* FbViewController.m */,
+				9FA5AC0213DF3FD4003B8647 /* MapViewController.h */,
+				9FA5AC0313DF3FD4003B8647 /* MapViewController.m */,
+				9FA5AC0713DF4B89003B8647 /* SCJNViewController.h */,
+				9FA5AC0813DF4B8A003B8647 /* SCJNViewController.m */,
+				9F0FF04C13E86DAA006298CB /* PJFViewController.h */,
+				9F0FF04D13E86DAB006298CB /* PJFViewController.m */,
+				9FA5AC0C13DF4EF8003B8647 /* JFDFViewController.h */,
+				9FA5AC0D13DF4EF8003B8647 /* JFDFViewController.m */,
+				9FA5AC1713DF5CDF003B8647 /* TSJDFViewController.h */,
+				9FA5AC1813DF5CDF003B8647 /* TSJDFViewController.m */,
+				9FA5AC1A13DF6553003B8647 /* JPenalDFViewController.h */,
+				9FA5AC1B13DF6553003B8647 /* JPenalDFViewController.m */,
+				9F1E19FB17F335A100735EC6 /* Images.xcassets */,
+				9FACA3B4135DE2AB001F9BC5 /* Supporting Files */,
+			);
+			path = LawViewer;
+			sourceTree = "<group>";
+		};
+		9FACA3B4135DE2AB001F9BC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F93B00313BCD57D00406A7C /* iPad */,
+				9F84C23F1399228700F6168A /* Articles */,
+				9FACA3C2135DE2AB001F9BC5 /* MainWindow.xib */,
+				9FACA3C8135DE2AB001F9BC5 /* RootViewController.xib */,
+				9FACA3ED135DED19001F9BC5 /* LeyesViewController.xib */,
+				BE12B38515DEB29D00120DC9 /* BuscadorViewController.xib */,
+				882AE05215E5248700D488E4 /* OverlayViewController.xib */,
+				9F87305C1369F74B00B06EBE /* ArticleViewController.xib */,
+				9FF6541E1590EB3B0058D123 /* FlipsideViewController.xib */,
+				9F81020814436DCB00BE600E /* ilegisViewController.xib */,
+				9F81020914436DCB00BE600E /* GmgViewController.xib */,
+				9F81020A14436DCB00BE600E /* FbViewController.xib */,
+				9FA687B7138ACF4A00486A3D /* WebViewController.xib */,
+				9FA5AC0413DF3FD4003B8647 /* MapViewController.xib */,
+				9F9C24C817A34C5A00837860 /* Alarm.png */,
+				9F7A6E0517A2FDFD0010A56D /* Face.png */,
+				9F5EC00117A24275009BB336 /* Links.png */,
+				9F5EC00217A24276009BB336 /* Maps.png */,
+				9F5EC00317A24276009BB336 /* Search.png */,
+				9F5EC00417A24277009BB336 /* Tasks.png */,
+				9F5EC00517A24278009BB336 /* Twitter.png */,
+				9FF654201590EB460058D123 /* GMG.png */,
+				9FAE716D13E078400017EF1F /* Iron114.png */,
+				9F8289E013AC408F00D12166 /* Default.png */,
+				9F8289DE13AC408300D12166 /* Default@2x.png */,
+				9FA9E7E21415D4D600EE66FA /* Activity.png */,
+				9FA8479613B93003007CC6B6 /* Logo-facebook.png */,
+				9FCE3BB313BB6AB5007783CC /* Logo-twitter.png */,
+				9FA8479713B93003007CC6B6 /* Logo-mail.png */,
+				BE8FFE2615DBF82D00EFAE99 /* next.png */,
+				BE8FFE2915DBF84B00EFAE99 /* back.png */,
+				9F88C5F313CCD37900C938AE /* SendMail.png */,
+				88646CF315EBBE03001B8AA0 /* lupa.png */,
+				9FACA3BF135DE2AB001F9BC5 /* LawViewer.xcdatamodeld */,
+				9FACA3B5135DE2AB001F9BC5 /* LawViewer-Info.plist */,
+				9FACA3B6135DE2AB001F9BC5 /* InfoPlist.strings */,
+				9FACA3B9135DE2AB001F9BC5 /* LawViewer-Prefix.pch */,
+				9FACA3BA135DE2AB001F9BC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FACA3D7135DE2AB001F9BC5 /* LawViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FACA3DE135DE2AB001F9BC5 /* LawViewerTests.h */,
+				9FACA3E0135DE2AB001F9BC5 /* LawViewerTests.m */,
+				9FACA3D8135DE2AB001F9BC5 /* Supporting Files */,
+			);
+			path = LawViewerTests;
+			sourceTree = "<group>";
+		};
+		9FACA3D8135DE2AB001F9BC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FACA3D9135DE2AB001F9BC5 /* Constitución MexicanaTests-Info.plist */,
+				9FACA3DA135DE2AB001F9BC5 /* InfoPlist.strings */,
+				9FACA3DD135DE2AB001F9BC5 /* LawViewerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FACA3A6135DE2AB001F9BC5 /* LawViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FACA3E4135DE2AB001F9BC5 /* Build configuration list for PBXNativeTarget "LawViewer" */;
+			buildPhases = (
+				9FACA3A3135DE2AB001F9BC5 /* Sources */,
+				9FACA3A4135DE2AB001F9BC5 /* Frameworks */,
+				9FACA3A5135DE2AB001F9BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LawViewer;
+			productName = LawViewer;
+			productReference = 9FACA3A7135DE2AB001F9BC5 /* Constitución MX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FACA3CF135DE2AB001F9BC5 /* LawViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FACA3E7135DE2AB001F9BC5 /* Build configuration list for PBXNativeTarget "LawViewerTests" */;
+			buildPhases = (
+				9FACA3CB135DE2AB001F9BC5 /* Sources */,
+				9FACA3CC135DE2AB001F9BC5 /* Frameworks */,
+				9FACA3CD135DE2AB001F9BC5 /* Resources */,
+				9FACA3CE135DE2AB001F9BC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FACA3D6135DE2AB001F9BC5 /* PBXTargetDependency */,
+			);
+			name = LawViewerTests;
+			productName = LawViewerTests;
+			productReference = 9FACA3D0135DE2AB001F9BC5 /* LawViewerTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FACA39E135DE2AA001F9BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gispert Media Group";
+				TargetAttributes = {
+					9FACA3A6135DE2AB001F9BC5 = {
+						DevelopmentTeam = B3Y8LN5T95;
+					};
+				};
+			};
+			buildConfigurationList = 9FACA3A1135DE2AA001F9BC5 /* Build configuration list for PBXProject "LawViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FACA39C135DE2AA001F9BC5;
+			productRefGroup = 9FACA3A8135DE2AB001F9BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FACA3A6135DE2AB001F9BC5 /* LawViewer */,
+				9FACA3CF135DE2AB001F9BC5 /* LawViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FACA3A5135DE2AB001F9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE560A0515DAEF4C00720C21 /* UIWebViewSearch2.js in Resources */,
+				9FACA3B8135DE2AB001F9BC5 /* InfoPlist.strings in Resources */,
+				9FACA3C4135DE2AB001F9BC5 /* MainWindow.xib in Resources */,
+				9FACA3CA135DE2AB001F9BC5 /* RootViewController.xib in Resources */,
+				9FACA3EE135DED19001F9BC5 /* LeyesViewController.xib in Resources */,
+				9F87305E1369F74C00B06EBE /* ArticleViewController.xib in Resources */,
+				9F873060136A2BE100B06EBE /* Texto Vigente.txt in Resources */,
+				9F1E19FC17F335A100735EC6 /* Images.xcassets in Resources */,
+				9F873074136A377C00B06EBE /* Artículo 1.txt in Resources */,
+				9F873075136A377C00B06EBE /* Artículo 2.txt in Resources */,
+				9F5E4EEF1372A5C80097758B /* Artículo 5.txt in Resources */,
+				9F5E4EF01372A5C80097758B /* Artículo 6.txt in Resources */,
+				9F5E4EF11372A5C80097758B /* Artículo 7.txt in Resources */,
+				9FC09256187C4FB40074E7F7 /* 20 de diciembre de 2013.txt in Resources */,
+				9F5E4EF21372A5C80097758B /* Artículo 8.txt in Resources */,
+				9F5E4F091372AD050097758B /* Artículo 9.txt in Resources */,
+				9F5E4F0A1372AD050097758B /* Artículo 10.txt in Resources */,
+				9F5E4F0B1372AD050097758B /* Artículo 11.txt in Resources */,
+				9F5E4F0C1372AD050097758B /* Artículo 12.txt in Resources */,
+				9F5E4F0D1372AD050097758B /* Artículo 13.txt in Resources */,
+				9F5E4F0E1372AD050097758B /* Artículo 14.txt in Resources */,
+				C3D7747F1C0CEDEF001B586C /* 27 de mayo de 2015.txt in Resources */,
+				9F5E4F0F1372AD050097758B /* Artículo 15.txt in Resources */,
+				9F5E4F101372AD050097758B /* Artículo 16.txt in Resources */,
+				9F5E4F111372AD050097758B /* Artículo 17.txt in Resources */,
+				9F5E4F121372AD050097758B /* Artículo 18.txt in Resources */,
+				9F5E4F131372AD050097758B /* Artículo 19.txt in Resources */,
+				9F5E4F141372AD050097758B /* Artículo 20.txt in Resources */,
+				9F5E4F151372AD050097758B /* Artículo 21.txt in Resources */,
+				9F5E4F161372AD050097758B /* Artículo 22.txt in Resources */,
+				9F5E4F171372AD050097758B /* Artículo 23.txt in Resources */,
+				9F5E4F181372AD050097758B /* Artículo 24.txt in Resources */,
+				9F5E4F191372AD050097758B /* Artículo 25.txt in Resources */,
+				9F5E4F1A1372AD050097758B /* Artículo 26.txt in Resources */,
+				9F5E4F1B1372AD050097758B /* Artículo 27.txt in Resources */,
+				9F5E4F1C1372AD050097758B /* Artículo 28.txt in Resources */,
+				C32FEB851C6A9135007819C8 /* 29 de enero de 2016.txt in Resources */,
+				9F5E4F1D1372AD050097758B /* Artículo 29.txt in Resources */,
+				9F5E4F1E1372AD050097758B /* Artículo 30.txt in Resources */,
+				9F24BE18137473630057A592 /* 1 de junio de 2009.txt in Resources */,
+				9F24BE19137473630057A592 /* 2 de agosto de 2004.txt in Resources */,
+				9F24BE1A137473630057A592 /* 2 de agosto de 2007.txt in Resources */,
+				9F24BE1B137473630057A592 /* 3 de septiembre de 1993.txt in Resources */,
+				9F24BE1C137473630057A592 /* 4 de diciembre de 2006.txt in Resources */,
+				9F93CEB11AC0AE4300A02961 /* 17 de junio de 2014 (2).txt in Resources */,
+				9F24BE1D137473630057A592 /* 4 de diciembre de 2006-2.txt in Resources */,
+				9F24BE1E137473630057A592 /* 4 de mayo de 2009.txt in Resources */,
+				9F24BE1F137473630057A592 /* 5 de abril de 2004.txt in Resources */,
+				9F24BE20137473630057A592 /* 7 de abril de 2000.txt in Resources */,
+				9F24BE21137473630057A592 /* 7 de abril de 2006.txt in Resources */,
+				9F24BE22137473630057A592 /* 7 de mayo de 2008.txt in Resources */,
+				9F24BE23137473630057A592 /* 8 de diciembre de 2005.txt in Resources */,
+				9F24BE24137473630057A592 /* 9 de diciembre de 2005.txt in Resources */,
+				9F24BE25137473630057A592 /* 11 de junio de 1999.txt in Resources */,
+				9F24BE26137473630057A592 /* 12 de diciembre de 2005.txt in Resources */,
+				9F93CEAF1AC0AE4300A02961 /* 7 de julio de 2014.txt in Resources */,
+				9F24BE27137473630057A592 /* 12 de febrero de 2007.txt in Resources */,
+				9F24BE28137473630057A592 /* 12 de noviembre de 2002.txt in Resources */,
+				C3D7747D1C0CEDEF001B586C /* 22 de mayo de 2015.txt in Resources */,
+				9F24BE29137473630057A592 /* 13 de abril de 2011.txt in Resources */,
+				9F24BE2A137473630057A592 /* 13 de noviembre de 2007.txt in Resources */,
+				9F24BE2B137473630057A592 /* 13 de septiembre de 1999.txt in Resources */,
+				9F24BE2C137473630057A592 /* 14 de agosto de 2001.txt in Resources */,
+				9F24BE2D137473630057A592 /* 14 de agosto de 2009.txt in Resources */,
+				9F93CEB01AC0AE4300A02961 /* 17 de junio de 2014 (1).txt in Resources */,
+				9F24BE2E137473630057A592 /* 14 de junio de 2002.txt in Resources */,
+				9F24BE2F137473630057A592 /* 14 de septiembre de 2006.txt in Resources */,
+				9F24BE30137473630057A592 /* 15 de agosto de 2007.txt in Resources */,
+				9F24BE31137473630057A592 /* 15 de agosto de 2008.txt in Resources */,
+				9F24BE32137473630057A592 /* 18 de junio de 2008.txt in Resources */,
+				9F24BE33137473630057A592 /* 19 de junio de 2007.txt in Resources */,
+				9F24BE34137473630057A592 /* 19 de junio de 2007-2.txt in Resources */,
+				9F24BE35137473630057A592 /* 20 de julio de 2007.txt in Resources */,
+				9F24BE36137473630057A592 /* 20 de julio de 2007-2.txt in Resources */,
+				9F24BE37137473630057A592 /* 20 de junio de 2005.txt in Resources */,
+				9F24BE38137473630057A592 /* 20 de marzo de 1997.txt in Resources */,
+				9F24BE39137473630057A592 /* 21 de septiembre de 2000.txt in Resources */,
+				9F24BE3A137473630057A592 /* 21 de septiembre de 2000-2.txt in Resources */,
+				9F24BE3B137473630057A592 /* 22 de agosto de 1996.txt in Resources */,
+				9F24BE3C137473630057A592 /* 22 de julio de 2004.txt in Resources */,
+				9F24BE3D137473630057A592 /* 23 de diciembre de 1999.txt in Resources */,
+				9F24BE3E137473630057A592 /* 24 de agosto de 2009.txt in Resources */,
+				9F24BE3F137473630057A592 /* 25 de junio de 2009.txt in Resources */,
+				9F24BE40137473630057A592 /* 25 de octubre de 1993.txt in Resources */,
+				9F24BE41137473630057A592 /* 26 de febrero de 1999.txt in Resources */,
+				9F24BE42137473630057A592 /* 26 de septiembre de 2008.txt in Resources */,
+				9F24BE43137473630057A592 /* 27 de abril de 2010.txt in Resources */,
+				9F24BE44137473630057A592 /* 27 de septiembre de 2004.txt in Resources */,
+				9F24BE45137473630057A592 /* 27 de septiembre de 2007.txt in Resources */,
+				9F24BE46137473630057A592 /* 28 de junio de 1999.txt in Resources */,
+				C3D7747C1C0CEDEF001B586C /* 10 de julio de 2015.txt in Resources */,
+				9F24BE47137473630057A592 /* 28 de noviembre de 2005.txt in Resources */,
+				9F24BE48137473630057A592 /* 29 de agosto de 2008.txt in Resources */,
+				9F24BE49137473630057A592 /* 29 de julio de 1999.txt in Resources */,
+				9F24BE4A137473630057A592 /* 29 de julio de 2010.txt in Resources */,
+				9F24BE4B137473630057A592 /* 30 de abril de 2009.txt in Resources */,
+				9F24BE4C137473630057A592 /* 30 de abril de 2009-2.txt in Resources */,
+				9F24BE4D137473630057A592 /* 30 de julio de 1999.txt in Resources */,
+				9F24BE4E137473630057A592 /* 30 de julio de 2004.txt in Resources */,
+				9F24BE4F137473630057A592 /* Artículo 31.txt in Resources */,
+				9F24BE50137473630057A592 /* Artículo 32.txt in Resources */,
+				9F24BE51137473630057A592 /* Artículo 33.txt in Resources */,
+				9F24BE52137473630057A592 /* Artículo 34.txt in Resources */,
+				9F24BE53137473630057A592 /* Artículo 35.txt in Resources */,
+				9F24BE54137473630057A592 /* Artículo 36.txt in Resources */,
+				9F24BE55137473630057A592 /* Artículo 37.txt in Resources */,
+				9F24BE56137473630057A592 /* Artículo 38.txt in Resources */,
+				9F24BE57137473630057A592 /* Artículo 39.txt in Resources */,
+				9F24BE59137473630057A592 /* Artículo 41.txt in Resources */,
+				9F24BE5A137473630057A592 /* Artículo 42.txt in Resources */,
+				9F24BE5B137473630057A592 /* Artículo 43.txt in Resources */,
+				9F24BE5C137473630057A592 /* Artículo 44.txt in Resources */,
+				9F24BE5D137473630057A592 /* Artículo 45.txt in Resources */,
+				9F24BE5F137473630057A592 /* Artículo 47.txt in Resources */,
+				9F24BE60137473630057A592 /* Artículo 48.txt in Resources */,
+				9F24BE61137473630057A592 /* Artículo 49.txt in Resources */,
+				9F24BE62137473630057A592 /* Artículo 50.txt in Resources */,
+				9F24BE63137473630057A592 /* Artículo 51.txt in Resources */,
+				9F24BE64137473630057A592 /* Artículo 52.txt in Resources */,
+				9F24BE65137473630057A592 /* Artículo 53.txt in Resources */,
+				9F24BE66137473630057A592 /* Artículo 54.txt in Resources */,
+				9F24BE67137473630057A592 /* Artículo 55.txt in Resources */,
+				9F24BE68137473630057A592 /* Artículo 56.txt in Resources */,
+				9F24BE69137473630057A592 /* Artículo 57.txt in Resources */,
+				9F24BE6A137473630057A592 /* Artículo 58.txt in Resources */,
+				9F24BE6B137473630057A592 /* Artículo 59.txt in Resources */,
+				9F24BE6C137473630057A592 /* Artículo 60.txt in Resources */,
+				9F24BE6D137473630057A592 /* Artículo 61.txt in Resources */,
+				9F24BE6E137473630057A592 /* Artículo 62.txt in Resources */,
+				9F24BE6F137473630057A592 /* Artículo 63.txt in Resources */,
+				9F24BE70137473630057A592 /* Artículo 64.txt in Resources */,
+				9F24BE71137473630057A592 /* Artículo 65.txt in Resources */,
+				9F24BE72137473630057A592 /* Artículo 66.txt in Resources */,
+				9F24BE73137473630057A592 /* Artículo 67.txt in Resources */,
+				9F24BE74137473630057A592 /* Artículo 68.txt in Resources */,
+				9F24BE75137473630057A592 /* Artículo 69.txt in Resources */,
+				9F24BE76137473630057A592 /* Artículo 70.txt in Resources */,
+				9F93CEB21AC0AE4300A02961 /* 17 de junio de 2014 (3).txt in Resources */,
+				9F24BE77137473630057A592 /* Artículo 71.txt in Resources */,
+				9FB86C6018ABCD2A0035C790 /* 7 de febrero de 2014.txt in Resources */,
+				9F24BE78137473630057A592 /* Artículo 72.txt in Resources */,
+				9F24BE7A137473630057A592 /* Artículo 74.txt in Resources */,
+				9F24BE7B137473630057A592 /* Artículo 75.txt in Resources */,
+				9F24BE7C137473630057A592 /* Artículo 76.txt in Resources */,
+				9F24BE7D137473630057A592 /* Artículo 77.txt in Resources */,
+				9F24BE7E137473630057A592 /* Artículo 78.txt in Resources */,
+				9F24BE7F137473630057A592 /* Artículo 79.txt in Resources */,
+				9F24BE80137473630057A592 /* Artículo 80.txt in Resources */,
+				9F24BE81137473630057A592 /* Artículo 81.txt in Resources */,
+				9F24BE82137473630057A592 /* Artículo 82.txt in Resources */,
+				9F24BE83137473630057A592 /* Artículo 83.txt in Resources */,
+				9F24BE84137473630057A592 /* Artículo 84.txt in Resources */,
+				9F24BE85137473630057A592 /* Artículo 85.txt in Resources */,
+				9F24BE86137473630057A592 /* Artículo 86.txt in Resources */,
+				9F24BE87137473630057A592 /* Artículo 87.txt in Resources */,
+				9F24BE88137473630057A592 /* Artículo 88.txt in Resources */,
+				9F24BE89137473630057A592 /* Artículo 89.txt in Resources */,
+				9F24BE8A137473630057A592 /* Artículo 90.txt in Resources */,
+				9F24BE8B137473630057A592 /* Artículo 91.txt in Resources */,
+				9F24BE8C137473630057A592 /* Artículo 92.txt in Resources */,
+				9F24BE8D137473630057A592 /* Artículo 93.txt in Resources */,
+				9F24BE8E137473630057A592 /* Artículo 94.txt in Resources */,
+				9F24BE8F137473630057A592 /* Artículo 95.txt in Resources */,
+				9F24BE90137473630057A592 /* Artículo 96.txt in Resources */,
+				9F24BE91137473630057A592 /* Artículo 97.txt in Resources */,
+				C317D3CF1C60098F00FF31E4 /* 27 de enero de 2016.txt in Resources */,
+				C3D7747B1C0CEDEF001B586C /* 2 de julio de 2015.txt in Resources */,
+				9F24BE92137473630057A592 /* Artículo 98.txt in Resources */,
+				9F24BE93137473630057A592 /* Artículo 99.txt in Resources */,
+				9F24BE94137473630057A592 /* Artículo 100.txt in Resources */,
+				9F24BE95137473630057A592 /* Artículo 101.txt in Resources */,
+				9F24BE96137473630057A592 /* Artículo 102.txt in Resources */,
+				9F24BE97137473630057A592 /* Artículo 103.txt in Resources */,
+				9F24BE98137473630057A592 /* Artículo 104.txt in Resources */,
+				9F24BE9A137473630057A592 /* Artículo 106.txt in Resources */,
+				9F24BE9B137473630057A592 /* Artículo 107.txt in Resources */,
+				9F24BE9C137473630057A592 /* Artículo 108.txt in Resources */,
+				9F24BE9D137473630057A592 /* Artículo 109.txt in Resources */,
+				9F24BE9E137473630057A592 /* Artículo 110.txt in Resources */,
+				9F24BE9F137473630057A592 /* Artículo 111.txt in Resources */,
+				C3D7747E1C0CEDEF001B586C /* 26 de mayo de 2015.txt in Resources */,
+				9F24BEA0137473630057A592 /* Artículo 112.txt in Resources */,
+				9F24BEA1137473630057A592 /* Artículo 113.txt in Resources */,
+				9F24BEA2137473630057A592 /* Artículo 114.txt in Resources */,
+				9F24BEA3137473630057A592 /* Artículo 115.txt in Resources */,
+				9F24BEA4137473630057A592 /* Artículo 116.txt in Resources */,
+				9F24BEA5137473630057A592 /* Artículo 117.txt in Resources */,
+				9F24BEA6137473630057A592 /* Artículo 118.txt in Resources */,
+				9F24BEA7137473630057A592 /* Artículo 119.txt in Resources */,
+				9F24BEA8137473630057A592 /* Artículo 120.txt in Resources */,
+				9F24BEA9137473630057A592 /* Artículo 121.txt in Resources */,
+				9F24BEAA137473630057A592 /* Artículo 122.txt in Resources */,
+				9F24BEAB137473630057A592 /* Artículo 123.txt in Resources */,
+				9F24BEAC137473630057A592 /* Artículo 124.txt in Resources */,
+				9F24BEAD137473630057A592 /* Artículo 125.txt in Resources */,
+				9F24BEAE137473630057A592 /* Artículo 126.txt in Resources */,
+				9F24BEAF137473630057A592 /* Artículo 127.txt in Resources */,
+				9F24BEB0137473630057A592 /* Artículo 128.txt in Resources */,
+				9F24BEB1137473630057A592 /* Artículo 129.txt in Resources */,
+				9F24BEB2137473630057A592 /* Artículo 130.txt in Resources */,
+				9F24BEB3137473630057A592 /* Artículo 131.txt in Resources */,
+				9F24BEB4137473630057A592 /* Artículo 132.txt in Resources */,
+				9F24BEB5137473630057A592 /* Artículo 133.txt in Resources */,
+				9FC09257187C4FB40074E7F7 /* 27 de diciembre de 2013.txt in Resources */,
+				9F24BEB6137473630057A592 /* Artículo 134.txt in Resources */,
+				9F24BEB7137473630057A592 /* Artículo 135.txt in Resources */,
+				9F24BEB8137473630057A592 /* Artículo 136.txt in Resources */,
+				9F24BEB9137473630057A592 /* Artículo Cuarto.txt in Resources */,
+				9F24BEBA137473630057A592 /* Artículo Décimo.txt in Resources */,
+				9F24BEBB137473630057A592 /* Artículo Decimoctavo.txt in Resources */,
+				9F24BEBC137473630057A592 /* Artículo Decimocuarto.txt in Resources */,
+				9F24BEBD137473630057A592 /* Artículo Decimonoveno.txt in Resources */,
+				9F24BEBE137473630057A592 /* Artículo Decimoprimero.txt in Resources */,
+				9F24BEBF137473630057A592 /* Artículo Decimoquinto.txt in Resources */,
+				9F24BEC0137473630057A592 /* Artículo Decimosegundo.txt in Resources */,
+				9F24BEC1137473630057A592 /* Artículo Decimoséptimo.txt in Resources */,
+				9F24BEC2137473630057A592 /* Artículo Decimosexto.txt in Resources */,
+				9F24BEC3137473630057A592 /* Artículo Decimotercero.txt in Resources */,
+				9F24BEC4137473630057A592 /* Artículo Noveno.txt in Resources */,
+				9F24BEC5137473630057A592 /* Artículo Octavo.txt in Resources */,
+				9F24BEC6137473630057A592 /* Artículo Primero.txt in Resources */,
+				9F24BEC7137473630057A592 /* Artículo Quinto.txt in Resources */,
+				9F24BEC8137473630057A592 /* Artículo Segundo.txt in Resources */,
+				9F24BEC9137473630057A592 /* Artículo Séptimo.txt in Resources */,
+				9F24BECA137473630057A592 /* Artículo Sexto.txt in Resources */,
+				9F24BECB137473630057A592 /* Artículo Tercero.txt in Resources */,
+				9F24BECC137473630057A592 /* Firmas.txt in Resources */,
+				9FA687B9138ACF4A00486A3D /* WebViewController.xib in Resources */,
+				9F82B58B13B26FF10020C69D /* 6 de junio de 2011.txt in Resources */,
+				9F82B58D13B26FFB0020C69D /* 10 de junio de 2011.txt in Resources */,
+				9FA8479913B93003007CC6B6 /* Logo-facebook.png in Resources */,
+				9FA8479A13B93003007CC6B6 /* Logo-mail.png in Resources */,
+				9FCE3BB413BB6AB5007783CC /* Logo-twitter.png in Resources */,
+				9F93B00713BCD58300406A7C /* MainWindow-iPad.xib in Resources */,
+				9F88C5F513CCD37900C938AE /* SendMail.png in Resources */,
+				9FA5AC0613DF3FD5003B8647 /* MapViewController.xib in Resources */,
+				9FAE716E13E078400017EF1F /* Iron114.png in Resources */,
+				9F0FF04A13E86CAD006298CB /* 14 de julio de 2011.txt in Resources */,
+				9FA9E7E41415D4D600EE66FA /* Activity.png in Resources */,
+				9FA9E7ED1415E25A00EE66FA /* 17 de agosto de 2011.txt in Resources */,
+				9F81020E14436DCB00BE600E /* ilegisViewController.xib in Resources */,
+				9F81020F14436DCB00BE600E /* GmgViewController.xib in Resources */,
+				9F81021014436DCB00BE600E /* FbViewController.xib in Resources */,
+				9F6F98D01447B41600200510 /* 12 de octubre de 2011-2.txt in Resources */,
+				9FB86C6118ABCD2A0035C790 /* 10 de febrero de 2014.txt in Resources */,
+				9F6F98D11447B41600200510 /* 12 de octubre de 2011.txt in Resources */,
+				9F6F98D21447B41600200510 /* Artículo 4.txt in Resources */,
+				9F63051114ED91EE00FBFB3B /* 8 de febrero de 2012.txt in Resources */,
+				9F63051214ED91EE00FBFB3B /* 9 de febrero de 2012.txt in Resources */,
+				9F5D7136180E09C0003093D8 /* 8 de octubre de 2013.txt in Resources */,
+				9FF6541F1590EB3B0058D123 /* FlipsideViewController.xib in Resources */,
+				9FF654211590EB460058D123 /* GMG.png in Resources */,
+				9F3926AB15D5E8AF00DC74E2 /* 9 de agosto de 2012.txt in Resources */,
+				BE8FFE2715DBF82D00EFAE99 /* next.png in Resources */,
+				BE8FFE2A15DBF84B00EFAE99 /* back.png in Resources */,
+				BE12B38715DEB29D00120DC9 /* BuscadorViewController.xib in Resources */,
+				882AE05415E5248700D488E4 /* OverlayViewController.xib in Resources */,
+				88646CF415EBBE03001B8AA0 /* lupa.png in Resources */,
+				9F5D713A180E112A003093D8 /* 30 de septiembre de 2013.txt in Resources */,
+				9F1DC614162DF5F200D6664B /* 15 de octubre de 2012.txt in Resources */,
+				9F9BAAEC16724CFB0096D7AC /* 30 de noviembre de 2012.txt in Resources */,
+				9F9BAAEF16724D1B0096D7AC /* Artículo 40.txt in Resources */,
+				9F6079CF169B3FD4008EC77F /* Artículo 105.txt in Resources */,
+				9F6079D5169B438F008EC77F /* Artículo 46.txt in Resources */,
+				9F6FC30216EAB6C5009C3455 /* 26 de febrero de 2013.txt in Resources */,
+				9F6FC30316EAB6C5009C3455 /* Artículo 3.txt in Resources */,
+				9F6FC30416EAB6C5009C3455 /* Artículo 73.txt in Resources */,
+				9F927F46176BE49E00EBF5A5 /* 11 de junio de 2013.txt in Resources */,
+				9F5EC00617A24278009BB336 /* Links.png in Resources */,
+				9F5EC00717A24278009BB336 /* Maps.png in Resources */,
+				9F5EC00817A24278009BB336 /* Search.png in Resources */,
+				9F5EC00917A24278009BB336 /* Tasks.png in Resources */,
+				9F5EC00A17A24278009BB336 /* Twitter.png in Resources */,
+				9F5EC00B17A245D1009BB336 /* Default.png in Resources */,
+				9F5EC00C17A245D9009BB336 /* Default@2x.png in Resources */,
+				9F7A6E0617A2FDFD0010A56D /* Face.png in Resources */,
+				9F9C24C517A33CB800837860 /* ReminderViewController.xib in Resources */,
+				9F9C24C917A34C5A00837860 /* Alarm.png in Resources */,
+				9F97418117D632940086A5D0 /* 19 de julio de 2013.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FACA3CD135DE2AB001F9BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FACA3DC135DE2AB001F9BC5 /* InfoPlist.strings in Resources */,
+				9FACA3DF135DE2AB001F9BC5 /* LawViewerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FACA3CE135DE2AB001F9BC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FACA3A3135DE2AB001F9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FACA3BB135DE2AB001F9BC5 /* main.m in Sources */,
+				9FACA3BE135DE2AB001F9BC5 /* LawViewerAppDelegate.m in Sources */,
+				9FACA3C1135DE2AB001F9BC5 /* LawViewer.xcdatamodeld in Sources */,
+				9FACA3C7135DE2AB001F9BC5 /* RootViewController.m in Sources */,
+				9FACA3EC135DE98A001F9BC5 /* LeyesViewController.m in Sources */,
+				9F87305D1369F74B00B06EBE /* ArticleViewController.m in Sources */,
+				9FA687B8138ACF4A00486A3D /* WebViewController.m in Sources */,
+				9FA5AC0513DF3FD5003B8647 /* MapViewController.m in Sources */,
+				9FA5AC0A13DF4B8A003B8647 /* SCJNViewController.m in Sources */,
+				9FA5AC0F13DF4EF8003B8647 /* JFDFViewController.m in Sources */,
+				9FA5AC1913DF5CDF003B8647 /* TSJDFViewController.m in Sources */,
+				9FA5AC1C13DF6553003B8647 /* JPenalDFViewController.m in Sources */,
+				9F0FF04E13E86DAB006298CB /* PJFViewController.m in Sources */,
+				9F81020B14436DCB00BE600E /* IlegisViewController.m in Sources */,
+				9F81020C14436DCB00BE600E /* GmgViewController.m in Sources */,
+				9F81020D14436DCB00BE600E /* FbViewController.m in Sources */,
+				9FF6541D1590EB310058D123 /* FlipsideViewController.m in Sources */,
+				BE12B38615DEB29D00120DC9 /* BuscadorViewController.m in Sources */,
+				C3D774831C0D1482001B586C /* Appirater.m in Sources */,
+				882AE05315E5248700D488E4 /* OverlayViewController.m in Sources */,
+				9F9C24C417A33CB800837860 /* ReminderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FACA3CB135DE2AB001F9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FACA3E1135DE2AB001F9BC5 /* LawViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FACA3D6135DE2AB001F9BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FACA3A6135DE2AB001F9BC5 /* LawViewer */;
+			targetProxy = 9FACA3D5135DE2AB001F9BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F93B00513BCD58300406A7C /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F93B00613BCD58300406A7C /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		9FACA3B6135DE2AB001F9BC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FACA3B7135DE2AB001F9BC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FACA3C2135DE2AB001F9BC5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FACA3C3135DE2AB001F9BC5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9FACA3C8135DE2AB001F9BC5 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FACA3C9135DE2AB001F9BC5 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		9FACA3DA135DE2AB001F9BC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FACA3DB135DE2AB001F9BC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FACA3E2135DE2AB001F9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FACA3E3135DE2AB001F9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9FACA3E5135DE2AB001F9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewer/LawViewer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewer/LawViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gispertmediagroup.ConstitucionMX;
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FACA3E6135DE2AB001F9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewer/LawViewer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewer/LawViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gispertmediagroup.ConstitucionMX;
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9FACA3E8135DE2AB001F9BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LawViewer.app/LawViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewerTests/LawViewerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewerTests/Constitución MexicanaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gispertmediagroup.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = LawViewerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9FACA3E9135DE2AB001F9BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LawViewer.app/LawViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewerTests/LawViewerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewerTests/Constitución MexicanaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gispertmediagroup.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = LawViewerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		9FCE3BB513BB8279007783CC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		9FCE3BB613BB8279007783CC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Othmar Gispert Pelaez (B3Y8LN5T95)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewer/LawViewer-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewer/LawViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gispertmediagroup.ConstitucionMX;
+				PRODUCT_NAME = "Constitución MX";
+				PROVISIONING_PROFILE = "80496333-7fef-4f99-bdd6-efd5885af6f9";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		9FCE3BB713BB8279007783CC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LawViewer.app/LawViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LawViewerTests/LawViewerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LawViewerTests/Constitución MexicanaTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gispertmediagroup.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = LawViewerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FACA3A1135DE2AA001F9BC5 /* Build configuration list for PBXProject "LawViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FACA3E2135DE2AB001F9BC5 /* Debug */,
+				9FACA3E3135DE2AB001F9BC5 /* Release */,
+				9FCE3BB513BB8279007783CC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		9FACA3E4135DE2AB001F9BC5 /* Build configuration list for PBXNativeTarget "LawViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FACA3E5135DE2AB001F9BC5 /* Debug */,
+				9FACA3E6135DE2AB001F9BC5 /* Release */,
+				9FCE3BB613BB8279007783CC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		9FACA3E7135DE2AB001F9BC5 /* Build configuration list for PBXNativeTarget "LawViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FACA3E8135DE2AB001F9BC5 /* Debug */,
+				9FACA3E9135DE2AB001F9BC5 /* Release */,
+				9FCE3BB713BB8279007783CC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FACA3BF135DE2AB001F9BC5 /* LawViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FACA3C0135DE2AB001F9BC5 /* LawViewer.xcdatamodel */,
+			);
+			currentVersion = 9FACA3C0135DE2AB001F9BC5 /* LawViewer.xcdatamodel */;
+			path = LawViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FACA39E135DE2AA001F9BC5 /* Project object */;
+}
